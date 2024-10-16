@@ -1,0 +1,54 @@
+Dit is de lectorale rede van Jeroen Linssen, lector Symbiotic AI bij het lectoraat [Ambient Intelligence](https://www.saxion.nl/ami){target="_blank"} van [Hogeschool Saxion](https://www.saxion.nl){target="_blank"}.
+De volledige titel van deze rede luidt als volgt.
+
+<p style="text-align: center;">**Tussen patroon en persoon:**<br />
+**een rede(n) voor symbiotische (artificiële) intelligentie**</p>
+
+Deze rede is bedoeld om als website te worden gelezen.
+Voor het gemak van de lezer zijn ook een [pdf-versie](TussenPatroonEnPersoon-LinssenJeroen-pdf.pdf){target="_blank"} en een [epub-versie](TussenPatroonEnPersoon-LinssenJeroen-epub.epub){target="_blank"} (voor e-readers) beschikbaar.
+
+![](img/tussen_patroon_en_persoon-cover.jpg)
+
+
+## Voorwoord: Denken in patronen {.unnumbered}
+
+> 'It is possible I had some presentiment of my future.' [@Wolfe1998]
+
+Patronen zijn overal.
+In de natuur, de vormen van planten en dieren, in onze leefomgeving, de manieren waarop wij onze wereld inrichten.
+In de tijd, de seizoenen, de etmalen.
+In alle talen die we spreken, lezen en schrijven.
+In abstractere zaken zoals gevoelens, metaforen en verhalen.^[Ook deze rede valt vaak terug op bepaalde patronen en metaforen, in de hoop dat bepaalde concepten op die manier helderder worden. In metaforen schuilt echter ook het risico dat patronen op een onbedoelde manier geïnterpreteerd worden.]
+Patronen geven aan dat er een bepaalde regelmaat in iets zit, iets dat voorspelbaar is.
+Deze volgordes maken dat alles bestaat in samenhang en al dan niet stabiel evenwicht.
+Er zit een logica in de bouwstenen van onze wereld.
+Wij, als mensen, vormen ieder een wereldbeeld op basis van deze patronen.
+Dankzij onze intelligentie zijn wij in staat bepaalde taken uit te voeren, daarmee nieuwe patronen te maken, en hiervan te leren.
+Intelligentie is echter niet alleen aan mensen voorbehouden: er zijn tal van organismen die intelligent gedrag vertonen.
+Maar is het dan ook mogelijk om _systemen_ te _maken_ die patronen kunnen herkennen en genereren?
+Jazeker.
+Dit is precies waar het vakgebied _kunstmatige_ of _artificiële intelligentie_ (**AI**) om draait: het onderzoeken en bouwen van intelligente systemen.
+
+De rode draad van deze rede is **symbiose**: het samen leven van twee levensvormen.
+Mensen en technologie zijn onlosmakelijk verbonden: dankzij technologie heeft de mensheid zich kunnen ontwikkelen.
+Maar technologie heeft omgekeerd ook invloed op de mensheid.
+Mijn boodschap is dat wij, als mensen, verantwoorder en duurzamer met AI om moeten gaan door beter te leren samenleven met deze technologie.
+Ik bedoel symbiose hier expliciet als _mutualistisch_: zowel menselijke als artificiële intelligentie zou baat moeten hebben bij mijn voorgestelde samenwerking tussen beiden.
+We willen als mensen betere, slimmere systemen die begrijpen wat wij doen en nodig hebben, voor een verbetering van onze kwaliteit van leven.
+Dit vereist dat deze systemen de juiste patronen kunnen herkennen en nieuwe patronen kunnen maken die aansluiten op onze verwachtingen.
+Andersom hebben wij de verantwoordelijkheid om zélf deze systemen ook te snappen, zodat wij begrijpen wat de systemen doen en nodig hebben.
+We streven naar **wederzijds begrip** en _hybride intelligentie_.
+Alleen als we deze keerzijden van dezelfde med*ai*lle voldoende aandacht geven, zullen we komen tot een werkelijke symbiose tussen menselijke en artificiële intelligentie.
+
+In deze rede leg ik uit hoe we tot zulke **symbiotische (artificiële) intelligentie** kunnen komen en wat we binnen ons lectoraat Ambient Intelligence hieraan onderzoeken.
+Ter introductie geeft het eerste hoofdstuk in deze rede een blik op de ontwikkeling van AI, waarna de rede over gaat naar huidige uitdagingen, de (mogelijke) toekomst van AI, en een oproep tot actie.
+Ieder hoofdstuk begint met een samenvatting van vijf zinnen in klare taal, zodat jij, de lezer, weet wat er komen gaat.
+Mijn streven was om de tekst zo helder mogelijk op te schrijven, zodat iedereen er zoveel mogelijk van kan leren.
+
+Ik hoop dat deze rede bijdraagt aan een beter begrip van AI, bewustwording van de (on)mogelijkheden van deze technologie, en jou aan het denken zet.
+We moeten daarvoor samen nieuwe patronen maken en daarvoor vele rode draden spinnen.
+De rode draad van deze rede is slechts één lijn in dit geheel, en ook in deze tekst blijkt dat veel andere draden verweven zijn met de hoofdlijn.^[Ik kan me er niet van weerhouden voetnoten met extra gedachten te tikken voor deze extra draden.]
+Ik verwacht niet dat AI op zichzelf alle uitdagingen en transities die ons nog te wachten staan, zal oplossen.
+Dit wordt een taak die samenwerking eist tussen alle vakgebieden en sectoren.
+Zoals vaker wordt gezegd: de beste manier om de toekomst te voorspellen, is door deze te maken.^[De oorsprong van deze uitspraak is niet compleet te herleiden, maar waarschijnlijk was het [Dennis Gabor](https://quoteinvestigator.com/2012/09/27/invent-the-future/){target="_blank"}.]
+Laten we dat samen doen.

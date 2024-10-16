@@ -1,0 +1,8 @@
+# Referenties {.unnumbered}
+
+::: {#refs}
+:::
+
+## Copyright {.unnumbered}
+
+De figuur van het landschap van AI van LFAI in @sec-uitdagingen is beschikbaar onder de [Apache 2.0-licentie](https://www.apache.org/licenses/LICENSE-2.0).

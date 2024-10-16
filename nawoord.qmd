@@ -1,0 +1,160 @@
+# Nawoord {.unnumbered}
+
+Hieronder benoem ik een aantal belangrijke zaken die niet aan bod kwamen in de lopende tekst: mijn dankwoord, persoonlijke reflectie, en aanraders voor verschillende media over AI.
+
+
+## Dankwoord {.unnumbered}
+
+Dat ik dit punt heb bereikt, is niet te danken aan alleen mezelf.
+Hiervoor heb ik veel steun ontvangen van vele mensen; teveel om op te noemen.
+Heel veel verschillende dingen hebben hiertoe geleid, dus laat ik in ieder geval de voornaamste benoemen.
+
+Deze rede kwam tot stand met dank aan:
+
+- Alle mensen van ons lectoraat Ambient Intelligence.
+Een creatieve, diverse, behulpzame groep.
+Samen verkennen we wat wel en niet mogelijk is via ons toegepast onderzoek.
+Er is nog genoeg te ontdekken, en ik heb er alle vertrouwen in dat we die reis met jullie kunnen maken.
+Speciale dank aan Bram en Danny voor hun uitgebreide input.
+- Mijn mede-lector Wouter Teeuw, omdat ik dankzij hem veel heb kunnen leren over het wel en wee van onderzoek bij Saxion.
+We houden elkaar scherp en in balans.
+- Alle collega's van onze Academie voor Creatieve Technologie, van alle lectoraten, opleidingen, en ondersteuning.
+In het bijzonder het lectoraat Smart Cities, waarmee we steeds meer samenwerken.
+Vanuit ons lectoraat Ambient Intelligence zien we vrijwel altijd overal kansen.
+In ons Data+AI Lab zie ik mooie dingen ontstaan.
+- De directeur van onze Academie voor Creatieve Technologie, omdat hij mij deze rol kon aanbieden.
+In de regio Stedendriehoek (Apeldoorn, Deventer, Zutphen) ga ik AI op de kaart zetten.
+- Het College van Bestuur, met name Anka Mulder, omdat zij heil zag in deze kans voor mij en voor Saxion.
+- Alle mensen van Saxion die in meer of mindere mate hebben bijgedragen.
+De vraagstukken over IT en digitalisaring vinden altijd plaats in een context.
+Zonder inzichten uit andere domeinen en andere perspectieven riskeren we dat we ons blindstaren op de techniek.
+Speciale dank aan Ronald voor het verwijzen naar Quarto, waarmee ik deze rede vormgaf.
+- Mijn (schoon)familie voor hun steun, kritiek, en gevarieerde kijk op de zaken.
+Hartstikke mooi dat ik jullie heb en ik hoop dat jullie het ook andersom zo zien.
+Ieder doet diens eigen ding en dat is prachtig om te zien.
+- Een speciale noot gaat uit naar mijn oma's en opa's.
+'Ze zouden trots op je geweest zijn.'
+Ik zie het liever zo dat ik trots op hun ben.
+Men zegt dat je twee keer sterft.
+Eén keer als je lichaam ermee ophoudt, en één keer als je uit de herinnering van levenden treedt.
+Ik vergeet jullie niet.
+- Leonie, mijn partner.
+Zij zou zeggen: AI is net als paardrijden, het gaat om samenwerking, een soort symbiose.
+We snappen elkaar steeds beter.
+- Kleine Ivar, die ik zie leren en daarvan zelf ook leer.
+Zoals een sciencefictionschrijver twintig jaar geleden zei: de beste manier om een intelligentie te creëren, is om een nieuw mens op de wereld te zetten en te helpen leren.^[Ik meen dat het Neal Stephenson was, maar hier blijf ik een bronvermelding schuldig.]
+Het is ongelooflijk mee te maken hoe ons kind zich ontwikkelt.
+Daar kan geen AI tegen op.
+- En ten slotte bedankt aan causaliteit.
+Waar zouden we zijn zonder oorzaak-gevolg?
+Er zijn zoveel dingen waarvan ik wellicht niet eens weet dat ze hebben bijgedragen, zoveel rode draden die onzichtbaar zijn.
+Dankzij dat complexe samenspel van omstandigheden zijn we hier aangekomen en het zal blijken hoe alles zich verder ontwikkelt.
+Nogmaals, de toekomst voorspellen lukt het beste door hiervoor actie te ondernemen.
+
+
+## Reflectie {.unnumbered}
+
+Na iedere grote taak is reflectie een wijs iets.
+Ik had al snel een idee van waar deze rede over zou moeten gaan.
+Dat was eigenlijk meer een vraag dan een concreet voorstel, namelijk: wat is intelligentie en wat hebben wij er aan?
+En wat hebben we dan aan artificiële intelligentie?
+En hoe gaan we daar verstandig mee om?
+Dat samenspel, die balans, die spagaat wellicht tussen techniek en menswezen, dat is nogal wat.
+
+Ik heb zo goed als mogelijk uit alle verschillende rode draden die ontsponnen uit deze gedachten een verhaal opgetekend.
+Ik ben dan ook niet van mening dat dit hét verhaal is, maar slechts één van de mogelijke vormen.
+Mijn aanpak hierbij was veel zaken proberen te benoemen en dat langzaamaan structuur te geven.
+Dat ging zeker niet lineair.
+Bij iedere zin die ik schrijf, kwamen er minstens twee nieuwe gedachten op.
+Als een draak waarbij je na het afhakken van ieder hoofd, er twee nieuwe aangroeiden.
+Schrijven is schrappen, en het is ook voldoening nemen met wat er staat.
+Wat ik meermaals zei tijdens dit proces was dan ook: 'het is nooit af.'
+Maar wat er nu staat is wel een verhaal dat gelezen kan worden.
+Het is niet een begin, ook geen eind, maar een stuk van rode draden dat ik geweven heb (met input van vele anderen, al dan niet direct).
+Het vervolg zou moeten zijn dat het anderen inspireert tot nadenken en tot actie.
+
+Ik ben een _late adopter_, maar een _early investigator_.
+Ik wil eerst goed uitzoeken hoe iets zit en begrijpen wat het doet, wie erachter zit en waarvoor het al dan niet nodig en nuttig is, voordat ik het gebruik.
+Tijdens het werken aan deze rede ben ik vaker gevraagd naar mijn motivatie voor alles, en dan kwam vaker de opmerking naar voren dat ik me veel bezig houd met de ethische en morele kaders van AI.
+Dit staat voor mij buiten kijf: hoe kunnen we bezig zijn met technologie zonder me te baseren op bepaalde principes, normen en waarden?
+Als we dat niet zouden doen lopen we het risico onverantwoord bezig te zijn.
+Ik zal die boodschap er continu in blijven hameren: niet alles wat mogelijk is, is wenselijk.
+Eerst onderzoeken wat iets inhoudt, wat daarvan de mogelijke impact zou kunnen zijn, en daarna pas 
+Dat wil niet zeggen dat we jaren bezig moeten zijn voordat we iets implementeren, maar wel dat voorzichtigheid verstandig is.
+Liever iets minder dan exponentiële groei, als je het mij vraagt.
+
+Het maken van deze rede was ook een experiment.
+Zoals wel vaker had ik meer ideeën dan tijd om deze uit te werken.
+Ik wilde iets schrijven dat begrijpelijk zou zijn en kan dienen als een introductie tot AI, maar ook een oproep tot bewustwording.
+Ik wilde bepaalde principes aanhangen.
+Vandaar dat ik géén gebruik heb gemaakt van _large language models_ voor het schrijven van teksten in deze rede.
+Veel van deze modellen die in commerciële producten geïntegreerd zijn, zijn immers getraind op auteursrechtelijk beschermd materiaal.
+Daarnaast is het proces dat hiermee gemoeid is ook bijzonder ontransparant.
+Ook als het gaat om datakwaliteit van de teksten of plaatjes die in deze modellen gebruikt wordt, zijn er vele vragen te stellen.
+Ik was graag symbiotisch te werk gegaan om deze rede te schrijven, maar de LLM's die op dit moment beschikbaar zijn, voldoen niet aan mijn normen en waarden.
+Mijn hoop is dat de wetenschappelijke en commerciële sector hiermee beter zal omgaan in de toekomst.
+Wij dragen met het onderzoek bij ons lectoraat in ieder geval zo goed als mogelijk ons steentje bij.
+
+Het schrijven van deze teksten was ook onderdeel van dit experiment: ik heb hiervoor [Quarto](https://quarto.org/){target="_blank"} gebruikt.
+Dit is een softwarepakket om op gestandaardiseerde wijze teksten te publiceren in verschillende formaten, zoals pdf, website, en epub, gebaseerd op een Markdown-variant.
+Ik had het niet eerder gebruikt, maar kan het nu aanraden voor diegenen die nastreven om open access te publiceren, en ook voor technische verslaglegging.
+
+Daarnaast had ik nog wat verder meta-onderzoek willen doen naar deze rede zelf, bijvoorbeeld om de milieu-impact in kaart te brengen (wat is duurzamer: geprint of digitaal?) en om de teksten te analyseren (op taalniveau, sentiment, etc.).
+Dit laat nog even op zich wachten, als ik er al aan toe gaan komen.
+Voor eenieder die zich geroepen voelt om dit onderzoek aan te gaan: de rede zelf is beschikbaar onder een open-access-licentie, net als de broncode zelf.
+
+Ik had in deze rede verder nog veel meer willen beschrijven, onder andere:
+fractals; chaos-theorie en entropie (in relatie tot informatietheorie); Lindenmayer-systemen en andere vormen van procedurele generatie als generatieve AI; filterbubbels; invloed van AI op wereldpolitiek dankzij bijvoorbeeld de gevolgen van deepfakes op de korte en lange termijn ('cheapfakes' vormen nu nog de meest impactvolle beïnvloeding); het feit dat [meer dan 50% van het internetverkeer in 2024 wordt gegenereerd door bots](https://www.imperva.com/resources/resource-library/reports/2024-bad-bot-report/){target="_blank"} (met eenderde van het totaal door kwaadwillende bots); hoe data in de vorm van browser cookies hebben geleid tot een vermarkting van het internet met een omzet van tientallen miljarden euro's; emergent gedrag van complexe (intelligente) systemen); cookies, EULA's, en andere zaken waarmee gebruikers van het internet en andere diensten ondoorzichtig worden behandeld; de driehoeksverhouding tussen mens, natuur en techniek; rationaliteit versus emotie versus logica - volgens mij kunnen emoties heel logisch zijn, maar zijn ze niet per se rationeel; de paradox van Jevons; artificiële kunst; Artificial Life; data management, data governance, data security, data warehouses, data lakes, FAIR data, metadata; digital twins en alle definities daarvan; en nog veel meer dingen.
+Misschien de volgende keer.
+
+
+## Media-aanraders {.unnumbered}
+
+Mensen gebruiken verhalen om de wereld te begrijpen.
+Ik ben niet van mening dat wetenschappelijke literatuur de beste manier is om ideeën uit te leggen.
+Veel fictie boort nieuwe concepten aan die op hun beurt weer de wetenschap en de maatschappij beïnvloeden (en andersom).
+Ik gebruik dan ook liever de term _speculative fiction_ dan _science fiction_ om dit soort literatuur te benoemen.
+Ik ben er daarnaast van overtuigd dat geletterdheid gebaat is bij meer lezen.
+Zo ook voor AI-geletterdheid, dus ik draag graag een aantal werken voor die de geïnteresseerde lezer tot zich kan nemen.
+En niet alleen in de literatuur, maar ook in films en games komen op hun eigen manier relevante ideeën naar voren die nieuwe ideeën naar voren brengen, zowel ter inspiratie en als waarschuwing.
+De redelijke bekende boeken en films heb ik achterwege gelaten, dit zijn mijn persoonlijke aanraders die mij inspireren.
+
+Dus, wil je meer te weten komen over...
+
+- ...(Good Old-Fashioned) AI? Dan is [Gödel Escher Bach](https://en.wikipedia.org/wiki/G%C3%B6del,_Escher,_Bach){target="_blank"} van Douglas Hofstadter mijn definitieve aanrader. Tijdens mijn studie zeiden we al: als je dit boek hebt uitgelezen, ben je een propedeuse AI waardig.
+- ...verschillende soorten van intelligentie?
+    - [Blindsight](https://en.wikipedia.org/wiki/Blindsight_(Watts_novel)){target="_blank"} van Peter Watts is waarschijnlijk mijn favoriete boek, waarin ongelooflijk veel ideeën worden uitgediept rondom intelligentie, bewustzijn, transhumanisme, en dat op enigszins wetenschappelijke basis, met honderden referenties aan het eind van het boek. En het is beschikbaar als [open-access](https://www.rifters.com/real/Blindsight.htm){target="_blank"} publicatie.
+    - [Vacuum Diagrams](https://en.wikipedia.org/wiki/Vacuum_Diagrams){target="_blank"} van Stephen Baxter belicht allerlei vormen van intelligentie, samen met de evolutie van mensen over miljoenen jaren heen.
+    - [The Sirens of Titan](https://en.wikipedia.org/wiki/The_Sirens_of_Titan){target="_blank"} van Kurt Vonnegut Jr. schetst hoe de mensheid dankzij een buitenaards bericht hun technologie kan verbeteren; de vraag is achter wat het bericht eigenlijk betekent.
+    - [The Book of the New Sun](https://en.wikipedia.org/wiki/The_Book_of_the_New_Sun){target="_blank"} van Gene Wolfe speelt zich zo ver in de toekomst af dat onduidelijk is wat magie is en wat technologie. Het blijkt maar heel langzaam wat er aan de hand is. Dit boek is wat mij betreft hét voorbeeld dat speculatieve fictie literair kan zijn.
+- ...transhumanisme?
+    - [Diamond Dogs](https://en.wikipedia.org/wiki/Diamond_Dogs,_Turquoise_Days#Diamond_Dogs){target="_blank"} van Alastair Reynolds verkent hoe ver een team onderzoekers gaat om hun eigen hersenen aan te passen om een buitenaards artefact te verkennen.
+    - [Diaspora](https://en.wikipedia.org/wiki/Diaspora_(novel)){target="_blank"} van Greg Egan beschrijft hoe in de verre toekomst mensen in fysieke en digitale vorm bestaan, inclusief beschrijvingen in zesdimensionale ruimte; het is maar goed dat de schrijver een [complete website met wiskundige onderbouwingen](https://www.gregegan.net/DIASPORA/DIASPORA.html){target="_blank"} bijlevert.
+    - [The Last Question](https://en.wikipedia.org/wiki/The_Last_Question){target="_blank"} van Isaac Asimov is een kort verhaal over de laatste vraag die de mens ooit zal stellen.
+    - [SOMA](https://en.wikipedia.org/wiki/Soma_(video_game)){target="_blank"} van Frictional Games is een game die de vraag stelt wat bewustzijn inhoudt en doet dit met de hersenscan van de hoofdrolspeler die verongelukt is als vertrekpunt.
+    - [Deus Ex](https://en.wikipedia.org/wiki/Deus_Ex_(video_game)){target="_blank"} van Ion Storm pakt heel veel onderwerpen tegelijk op in een game met veel keuzevrijheid (voor die tijd): nanotechnologie, AI, heel veel overdreven complottheorieën, een wereldorde verstorende pandemie, en de keuze aan de speler om dit op een bepaalde manier op te lossen.
+    - [2001: A Space Odyssey](https://en.wikipedia.org/wiki/2001:_A_Space_Odyssey_(novel)){target="_blank"} van Arthur C. Clarke is een boek met een [weergaloze verfilming](https://en.wikipedia.org/wiki/2001:_A_Space_Odyssey){target="_blank"} door Stanley Kubrick dat hypothiseert dat de evolutie van mensen te danken is aan buitenaardse intelligentie, waar in de toekomst ook nog een botsing met AI door volgt.
+- ...de invloed van (kunstmatige) taal op (kunstmatige) intelligentie?
+    - [Story of Your Life](https://en.wikipedia.org/wiki/Story_of_Your_Life){target="_blank"} van Ted Chiang is een novelle over het ontcijferen van een buitenaardse taal die perceptie verandert. De verfilming [Arrival](https://en.wikipedia.org/wiki/Arrival_(film)){target="_blank"} beeldt dit goed uit, maar het boek is beter.
+    - [Babel-17](https://en.wikipedia.org/wiki/Babel-17){target="_blank"} van Samuel R. Delaney stelt dat taal een wapen kan zijn, gebaseerd op theorieën van [linguïstische relativiteit](https://en.wikipedia.org/wiki/Linguistic_relativity){target="_blank"}.
+    - [The Diamond Age](https://en.wikipedia.org/wiki/The_Diamond_Age){target="_blank"} van Neal Stephenson verhaalt over een boek dat een meisje helpt opgroeien door zich aan te passen aan haar omstandigheden.
+- ...AI die menselijk wordt?
+    - [Blade Runner](https://en.wikipedia.org/wiki/Blade_Runner){target="_blank"} van Ridley Scott is een verfilming van het boek [Do Androids Dream of Electric Sheep?](https://en.wikipedia.org/wiki/Do_Androids_Dream_of_Electric_Sheep%3F){target="_blank"} van Philip K. Dick, waarin synthetische mensen de vuile klusjes moeten opknappen; dat kan natuurlijk niet goed gaan. De sfeer die deze film neerzet is ongekend.
+    - [Ghost in the Shell](https://en.wikipedia.org/wiki/Ghost_in_the_Shell_(1995_film)){target="_blank"} verkent het thema identiteit in relatie tot belichaming daarvan.
+- Affectieve Intelligentie?
+    - [HER](https://en.wikipedia.org/wiki/Her_(film)){target="_blank"} van Spike Jonze is een film waarin het lijkt te draaien om de opbloeiende liefde van een man voor zijn computerbesturingssysteem, maar waar op de achtergrond iets groters speelt.
+    - [I Dated a Robot](https://en.wikipedia.org/wiki/I_Dated_a_Robot){target="_blank"} is een aflevering van de animatieserie Futurama, waarin de risico's van mens-machine-relaties en het kopiëren van menselijk bewustzijn worden belicht.
+- ...de gevaren en mogelijkheden van data en AI, in non-fictie-vorm?
+    - [Superintelligence](https://en.wikipedia.org/wiki/Superintelligence:_Paths,_Dangers,_Strategies){target="_blank"} van Nick Bostrom verkent op theoretische basis wat er nodig is voor superintelligentie en wat deze intelligentie zou kunnen drijven.
+    - [From Bacteria to Bach and Back](https://en.wikipedia.org/wiki/From_Bacteria_to_Bach_and_Back){target="_blank"} van Daniel Dennett is een historie van de evolutie van menselijk bewustzijn, en legt hierin ook de link naar mogelijk kunstmatig bewustzijn.
+    - [The Model Thinker](https://sites.lsa.umich.edu/scottepage/home/the-model-thinker/){target="_blank"} van Scott E. Page legt uit hoe je met verschillende, datagedreven manieren naar problemen kunt kijken.
+    - [Echt Nep](https://www.sogeti.nl/nieuws/vint/echt-nep){target="_blank"} van Menno van Doorn, Sander Duivestein en Thijs Pepping belicht vele voorbeelden van des- en misinformatie.
+    - [Ghost Work](https://en.wikipedia.org/wiki/Ghost_work){target="_blank"} van Mary L. Gray en Siddharth Suri geeft uitleg over klikwerkers.
+- ...en als je hiervoor passende muziek zoekt, dan nog een aantal persoonlijke aanraders die deze thematiek aansnijden.
+    - [Obsolete](https://en.wikipedia.org/wiki/Obsolete_(album)){target="_blank"} van Fear Factory is een album dat het onheilspellende beeld schetst van machines die mensen overheersen, en dat mensen achterhaald zijn.
+    - [Relentless Mutation](https://en.wikipedia.org/wiki/Relentless_Mutation){target="_blank"} van Archspire pakt dit thema nog wat extremer op, door te verwoorden wat er kan gebeuren als transhumanisme een stap te ver gaat.
+    - [01011001](https://en.wikipedia.org/wiki/01011001){target="_blank"} van Ayreon is een opera van Nederlandse bodem met vele gastzangers, over uplifting van de mensheid door middel van technologie.
+    - [Data Renaissance](https://en.wikipedia.org/wiki/Data_Renaissance){target="_blank"} van The Algorithm doet wat de naam zegt: een muzikaal gezicht geven aan de digitale transitie.
+
+Laat deze media je inspireren dan wel waarschuwen.
+Voor verdere aanraders houd ik me aanbevolen!

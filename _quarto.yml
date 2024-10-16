@@ -1,0 +1,39 @@
+project:
+  type: book
+  output-dir: docs
+
+lang: nl
+
+book:
+  title: "Tussen patroon en persoon"
+  author: "Jeroen Linssen"
+  date: "2024-10-17"
+  search: false
+  chapters:
+    - index.qmd
+    - 10_introductie.qmd
+    - 20_uitdagingen.qmd
+    - 30_toekomst.qmd
+    - 40_actie.qmd
+    - nawoord.qmd
+    - over.qmd
+    - referenties.qmd
+
+bibliography:
+  - references.bib
+csl: resources/apa.csl
+
+format:
+  html:
+    theme:
+      light: journal
+    css: resources/rede.css
+  epub:
+    cover-image: img/tussen_patroon_en_persoon-cover.jpg
+  pdf:
+   documentclass: scrreprt
+   hyperrefoptions:
+    - colorlinks=true
+    - urlcolor=blue
+    - linkcolor=blue
+    - citecolor=red

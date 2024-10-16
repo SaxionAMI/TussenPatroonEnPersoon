@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="nl" xml:lang="nl"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.55">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>1&nbsp; Introductie: Over AI – Tussen patroon en persoon</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<link href="./20_uitdagingen.html" rel="next">
+<link href="./index.html" rel="prev">
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "language": {
+    "search-no-results-text": "Geen resultaten",
+    "search-matching-documents-text": "Gevonden documenten",
+    "search-copy-link-title": "Kopieer link om te zoeken",
+    "search-hide-matches-text": "Extra overeenkomsten verbergen",
+    "search-more-match-text": "meer overeenkomst in dit document",
+    "search-more-matches-text": "meer overeenkomsten in dit document",
+    "search-clear-button-title": "Wissen",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Annuleren",
+    "search-submit-button-title": "Verzenden",
+    "search-label": "Zoeken"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="resources/rede.css">
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Schakel zijbalknavigatie" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./10_introductie.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introductie: Over AI</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Schakel zijbalknavigatie" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Tussen patroon en persoon</a> 
+    </div>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Voorwoord: Denken in patronen</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./10_introductie.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introductie: Over AI</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./20_uitdagingen.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Uitdagingen: Het belang van wederzijds begrip</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./30_toekomst.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Toekomst: Grenzen vervagen</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./40_actie.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Actie: Samen verantwoordelijk</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./nawoord.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Nawoord</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./over.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Over deze rede</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./referenties.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Referenties</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Inhoudsopgave</h2>
+   
+  <ul>
+  <li><a href="#definities-van-ai" id="toc-definities-van-ai" class="nav-link active" data-scroll-target="#definities-van-ai"><span class="header-section-number">1.1</span> Definities van AI</a></li>
+  <li><a href="#doorbraken-in-ai" id="toc-doorbraken-in-ai" class="nav-link" data-scroll-target="#doorbraken-in-ai"><span class="header-section-number">1.2</span> Doorbraken in AI</a></li>
+  <li><a href="#discussies-over-ai" id="toc-discussies-over-ai" class="nav-link" data-scroll-target="#discussies-over-ai"><span class="header-section-number">1.3</span> Discussies over AI</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span id="sec-introductie" class="quarto-section-identifier"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introductie: Over AI</span></span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<blockquote class="blockquote">
+<p><strong>Samenvatting</strong></p>
+<p>AI is geen magie: het is een vakgebied dat zich richt op het ontwikkelen en onderzoeken van intelligente systemen. Hiervan zijn veel verschillende vormen, zoals zoekmachines, beeldherkenning en het genereren van teksten. AI is gebouwd op basis van algoritmes: instructies die computers kunnen uitvoeren. In de loop der jaren zijn veel doorbraken geweest in dit veld en gaat de discussie ook over de effecten van deze technologie. In deze rede licht ik een aantal uitdagingen toe die vandaag de dag en in de nabije toekomst aangepakt moeten worden.</p>
+</blockquote>
+<p>Er zijn tal van manieren om een rede als deze te beginnen. Minstens zoveel als het aantal redenen om met <em>Artificiële Intelligentie</em> (AI) bezig te zijn. AI is een technologie die toegepast kan worden om processen te verbeteren, van zorg tot industrie en van energietransitie tot sociaal werk. Het kan gebruikt worden om betere diagnoses te stellen voor ziektes <span class="citation" data-cites="kumar2023artificial">(<a href="referenties.html#ref-kumar2023artificial" role="doc-biblioref">Kumar e.a., 2023</a>)</span>, automatisch te regelen hoe stroomvoorzieningen optimaal draaien <span class="citation" data-cites="shi2020artificial">(<a href="referenties.html#ref-shi2020artificial" role="doc-biblioref">Shi e.a., 2020</a>)</span>, en inzicht geven in maatschappelijke problemen <span class="citation" data-cites="nishant2020artificial">(<a href="referenties.html#ref-nishant2020artificial" role="doc-biblioref">Nishant e.a., 2020</a>)</span>.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> AI kan ook gebruikt worden om te onderzoeken wat intelligentie nu precies is, bijvoorbeeld om beter te begrijpen hoe ‘leren’ werkt <span class="citation" data-cites="modha2011cognitive">(<a href="referenties.html#ref-modha2011cognitive" role="doc-biblioref">Modha e.a., 2011</a>)</span>. Iedereen zal een eigen voorstelling kunnen maken van wat AI wel of niet is. Mijn doel bij deze rede is het verbeteren van het begrip van iedereen over AI en uitleggen hoe ons lectoraat Ambient Intelligence bijdraagt aan een verantwoorde, duurzame inzet en ontwikkeling van AI. Voordat ik in ga op wat we <em>nu</em> zouden moeten doen met AI, belicht ik in dit hoofdstuk eerst hoe we tot hier gekomen zijn en wat volgens mij belangrijke lessen zijn, door te praten over definities van, doorbraken in en discussies over AI.<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> Daarna gaat deze rede verder met uitdagingen van vandaag de dag (<a href="20_uitdagingen.html" class="quarto-xref"><span>Hoofdstuk 2</span></a>, reflectie), de mogelijke toekomst van AI (<a href="30_toekomst.html" class="quarto-xref"><span>Hoofdstuk 3</span></a>, speculatie) om tenslotte af te sluiten met een oproep tot actie (<a href="40_actie.html" class="quarto-xref"><span>Hoofdstuk 4</span></a>, activatie).</p>
+<section id="definities-van-ai" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="definities-van-ai"><span class="header-section-number">1.1</span> Definities van AI</h2>
+<p>Als vakgebied bestaat AI officieus sinds 1956, toen de <strong>Dartmouth Summer Research Project on Artificial Intelligence</strong> in de zomer van dat jaar gehouden werd op Dartmouth College in de Verenigde Staten.<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a> Natuurlijk waren daarvoor al allerlei pogingen gedaan om intelligentie te begrijpen en te automatiseren, of dat nu in fictieve werken was <span class="citation" data-cites="Cave2019hopes">(<a href="referenties.html#ref-Cave2019hopes" role="doc-biblioref">Cave &amp; Dihal, 2019</a>)</span> of in wetenschappelijke <span class="citation" data-cites="Russell2016artificial">(<a href="referenties.html#ref-Russell2016artificial" role="doc-biblioref">Russell &amp; Norvig, 2016</a>)</span>. <strong>Alan Turing</strong> wordt bijvoorbeeld als één van de grondleggers genoemd, met zijn Turing-machine die alle mogelijke berekeningen kan uitvoeren.<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a> Voordat ik Turings gedachten belicht, terug naar het moment waarop AI als dusdanig benoemd werd: het Summer Research Project in 1956. De insteek hiervan was als volgt:<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a></p>
+<blockquote class="blockquote">
+<p>‘Wij stellen voor dat er in de zomer van 1956 een 2-maanden durende studie van 10 personen naar kunstmatige intelligentie wordt uitgevoerd aan Dartmouth College in Hanover, New Hampshire. De studie moet worden uitgevoerd op basis van de veronderstelling dat elk aspect van leren of een ander kenmerk van intelligentie in principe zo nauwkeurig kan worden beschreven dat een machine het kan simuleren. Er zal een poging worden gedaan om te ontdekken hoe machines taal kunnen gebruiken, abstracties en concepten kunnen vormen, problemen kunnen oplossen die nu alleen voor mensen zijn weggelegd, en zichzelf kunnen verbeteren. Wij denken dat er een significante vooruitgang kan worden geboekt in een of meer van deze problemen als een zorgvuldig geselecteerde groep wetenschappers er een zomer lang samen aan werkt.’ <span class="citation" data-cites="Mccarthy2006proposal">(<a href="referenties.html#ref-Mccarthy2006proposal" role="doc-biblioref">McCarthy e.a., 2006</a>)</span></p>
+</blockquote>
+<p>Aan ambitie geen gebrek, zo erkenden de betrokkenen ook in een terugblik hierop, vijftig jaar later <span class="citation" data-cites="Moor2006dartmouth">(<a href="referenties.html#ref-Moor2006dartmouth" role="doc-biblioref">Moor, 2006</a>)</span>. De kern van AI blijkt hieruit wel duidelijk, namelijk het nabootsen of simuleren van intelligentie. John McCarthy, één van de oprichters van de zomerworkshop, definieerde AI simpelweg als ‘de wetenschap en techniek van het maken van intelligente machines’. Dit is een brede, inclusieve definitie die wat mij betreft nog steeds het beste werkt om het hele vakgebied samen te vatten. Een andere blik op AI is dat het draait om <em>patroonherkenning</em> en daarmee ook het genereren van patronen. In de jaren na Dartmouth heeft AI namelijk vele ontwikkelingen doorgemaakt <span class="citation" data-cites="Buchanan2005very">(<a href="referenties.html#ref-Buchanan2005very" role="doc-biblioref">Buchanan, 2005</a>)</span>. Allerlei onderzoeksgebieden zijn sindsdien ontstaan, zoals robotica, expertsystemen, beeldherkenning, redeneersystemen en zelflerende systemen <span class="citation" data-cites="Russell2016artificial">(<a href="referenties.html#ref-Russell2016artificial" role="doc-biblioref">Russell &amp; Norvig, 2016</a>)</span>. AI is daarom een parapluterm, wat ook af te zien valt aan de letters A en I.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/ai-paraplu.png" class="img-fluid figure-img"></p>
+<figcaption>AI als parapluterm</figcaption>
+</figure>
+</div>
+<p>Een cynische definitie van AI zou ook kunnen zijn: intelligente technologie waar we nu nog geen andere naam voor hebben. Het is namelijk zo dat sommige technieken doorontwikkeld worden en een eigen naam krijgen. Soms wordt dan gezegd dat deze techniek AI is, waarbij het gevaar bestaat dat er geen andere vormen van AI zouden bestaan. Een recent voorbeeld is <em>ChatGPT</em>, dat gebruik maakt van AI-technologie, maar slechts één vorm hiervan is.<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a> Andere voorbeelden zijn navigatiesystemen (routeplanning m.b.v. Google Maps, TomTom), spraakherkenning (spraak naar tekst in schrijfprogramma’s, Apple Siri), zoekmachines (Bing, DuckDuckGo), zelfrijdende auto’s, en virtuele karakters in computergames. Tig vormen van AI, en veel sub-vakgebieden waar de meeste mensen zich niet bewust van zijn.</p>
+<p>Ik grijp de kans niet aan om een complete uitleg te geven van alle mogelijke vormen van AI, maar geef wel een uitleg van de principes.<a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a> Een belangrijke opmerking vooraf: mensen maken AI-technologie en deze is in de basis te begrijpen. <strong>AI is geen magie.</strong> AI is logisch opgebouwd en maakt gebruik van <em>algoritmes</em>: instructies die een computer kan uitvoeren. Deze algoritmes kunnen zo simpel zijn als ‘ALS dit, DAN dat’: ‘ALS de temperatuur in de woonkamer onder de 18,5 graden Celsius komt, DAN moet de verwarming actief worden.’ Ook kunnen algoritmes geprogrammeerd worden als complete grammatica’s met allerhande regels die getest kunnen worden. Op zichzelf kunnen zulke regels met moeite intelligent genoemd worden, maar een verzameling hiervan kan complex en intelligent(er) gedrag vertonen. Zo zijn er algoritmes om op basis van een kaart met afstanden tussen steden efficiënt de kortste route te vinden van A naar B. Ook zijn er algoritmes die woorden in zinnen herkennen en op basis daarvan een indicatie geven of de tekst positief of negatief geladen is.</p>
+<p>Opvallend hierbij is dat bij deze aanpak de intelligente vastligt in het algoritme. Er wordt geen nieuwe kennis toegevoegd, alle gevallen moeten beschreven zijn voordat het algoritme gestart wordt. Het is regelgebaseerd, volgens een bepaalde logica. Er vindt dus geen ‘leren’ plaats. Dit is een belangrijk onderscheid in AI, wat door de opmars van beschikbare data vaak vergeten wordt: het onderscheid tussen lerende systemen en statische systemen.<a href="#fn8" class="footnote-ref" id="fnref8" role="doc-noteref"><sup>8</sup></a> Dit verdeelt AI grofweg in twee kampen: <strong>symbolische AI</strong> en <strong>connectionisme</strong>. Beiden gaan uit van hoe menselijke intelligentie werkt. Symbolische AI gaat uit van een basis van begrijpelijke regels en vastgelegde logica.<a href="#fn9" class="footnote-ref" id="fnref9" role="doc-noteref"><sup>9</sup></a> Het bekijkt intelligentie dus op een hoog niveau van abstractie dat door mensen leesbaar is. Dit kan effectief zijn, maar heeft als nadeel bijvoorbeeld dat het schrijven van de regels veel werk kan kosten in complexe situaties.<a href="#fn10" class="footnote-ref" id="fnref10" role="doc-noteref"><sup>10</sup></a></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/symbol-connect.png" class="img-fluid figure-img"></p>
+<figcaption>Voorbeelden van symbolische AI en connectionisme. Links is uitgeschreven hoe met de programmeertaal Prolog familieverbanden achterhaald kunnen worden. Rechts staat een schematische weergave van een neuraal netwerk dat een handgeschreven cijfer herkent.</figcaption>
+</figure>
+</div>
+<p>Connectionisme gaat uit van een lager niveau van abstractie van intelligentie, door netwerken te beschrijven die lijken op de structuren in hersenen. Hierbij is het idee dat er (kunstmatige) neuronen met elkaar in verbinding staan die elkaar kunnen activeren op basis van signalen die ze doorgeven. Door verschillende signalen met elkaar te combineren, kunnen vervolgens complexe functies worden beschreven. Dit werkt door de neuronen in een netwerk met elkaar te verbinden en te trainen met data. Dit is <strong>deep learning</strong>, een vorm van <strong>machine learning</strong>: het een computer aanleren van een bepaalde taak zonder deze van tevoren geprogrammeerd te hebben. Om het schoolvoorbeeld te geven van de MNIST-dataset: stel, we willen een netwerk trainen om handgeschreven cijfers te herkennen.<a href="#fn11" class="footnote-ref" id="fnref11" role="doc-noteref"><sup>11</sup></a> We geven het netwerk een plaatje van een cijfer als input en vragen het om als output te geven wat de waarschijnlijkheden zijn dat het een bepaald getal is. De verbindingen in het netwerk bepalen door de activities van de signalen in het netwerk wat deze waarschijnlijkheden zijn. Klopt de output van het netwerk niet? Dan ‘leert’ het netwerk door de activities aan te passen dankzij achterliggende wiskundige formules die geprogrammeerd zijn. Op den duur wordt dit netwerk steeds beter naarmate het meer voorbeelden van de cijfers te zien krijgt.<a href="#fn12" class="footnote-ref" id="fnref12" role="doc-noteref"><sup>12</sup></a> Bij deep learning wordt dus in het begin enkel de vorm van het netwerk beschreven en traint het zichzelf op basis van data. De intelligentie komt voort uit het leerproces dat plaatsvindt.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/ai-ml-dl-ds.png" class="img-fluid figure-img"></p>
+<figcaption>De verhoudingen tussen AI, Symbolische AI, Connectionisme, machine learning en deep learning, en data science</figcaption>
+</figure>
+</div>
+<p>Kort gezegd kan het vakgebied van AI met deze stromingen als volgt bekeken worden. Er zijn twee grote stromingen binnen AI, waarbij de symbolische AI uitgaat van het van tevoren uitdenken van patronen en het connectionisme deze patronen laat ontdekken. Het connectionisme heeft in de vorm van deep learning de laatste tien jaar veel aandacht heeft gekregen, dankzij computers die al het rekenwerk aan kunnen. Data science maakt gebruik van technieken uit deze wereld om op basis van data nieuwe inzichten te verwerven. Dat kan door modellen te trainen met connectionistme en via regelgebaseerde logica, gecombineerd met technieken uit onder andere statistiek en informatica. Maar daarvoor waren er ook al tal van AI-technieken die zorgden voor nieuwe inzichten en toepassingen. Deze belicht ik in de volgende sectie.</p>
+</section>
+<section id="doorbraken-in-ai" class="level2" data-number="1.2">
+<h2 data-number="1.2" class="anchored" data-anchor-id="doorbraken-in-ai"><span class="header-section-number">1.2</span> Doorbraken in AI</h2>
+<p>In de afgelopen 80 jaar is er veel gebeurd in het vakgebied AI. Men is van ver gekomen, en tegenwoordig draaien vele systemen op AI-gebaseerde technologie, of we ons daarvan nu bewust zijn of niet. In vogelvlucht noem ik hier een aantal hoogte- en dieptepunten voor een historisch perspectief. Voor een volledige(re) geschiedenies van AI zijn er tal van werken beschikbaar.<a href="#fn13" class="footnote-ref" id="fnref13" role="doc-noteref"><sup>13</sup></a></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/ai-tijdlijn.png" class="img-fluid figure-img"></p>
+<figcaption>Tijdlijn van AI in de afgelopen 80 jaar</figcaption>
+</figure>
+</div>
+<p>Alan Turing verdient de eer om benoemd te worden met zijn doorbraak in denkwerk in 1950:<a href="#fn14" class="footnote-ref" id="fnref14" role="doc-noteref"><sup>14</sup></a></p>
+<blockquote class="blockquote">
+<p>Ik stel voor om de vraag te overwegen: ‘Kunnen machines denken?’ <span class="citation" data-cites="Turing1950ai">(<a href="referenties.html#ref-Turing1950ai" role="doc-biblioref">Turing, 1950</a>)</span></p>
+</blockquote>
+<p>Dit was de aanzet voor het gedachte-experiment de <strong>Turing-test</strong>.<a href="#fn15" class="footnote-ref" id="fnref15" role="doc-noteref"><sup>15</sup></a> Hierin moet een ondervrager achterhalen in welke van twee kamers zich een mens of een machine bevindt. De ondervrager kan alleen vragen stellen en krijgt daarop antwoord vanuit beide kamers. De machine zal zich proberen voor te doen als een mens, terwijl de mens de ondervrager zal proberen te overtuigen dat die een mens is. Uit deze simpele voorzet ontstond een heel plan met ideeën om machines menselijke intelligentie te laten imiteren en kwamen er vele tegen-argumenten naar voren, al helemaal met de taalmodellen van vandaag de dag <span class="citation" data-cites="pinar2000turing sejnowski2023large">(<a href="referenties.html#ref-pinar2000turing" role="doc-biblioref">Pinar Saygin e.a., 2000</a>; <a href="referenties.html#ref-sejnowski2023large" role="doc-biblioref">Sejnowski, 2023</a>)</span>.</p>
+<p>Overigens was <strong>Ada Lovelace</strong> ook een persoon die eer verdient.<a href="#fn16" class="footnote-ref" id="fnref16" role="doc-noteref"><sup>16</sup></a> Zij zag al in 1843 in dat machines niet alleen voor rekenwerk gebruikt hoefden te worden, maar ook voor andere, menselijke problemen <span class="citation" data-cites="fuegi2003lovelace">(<a href="referenties.html#ref-fuegi2003lovelace" role="doc-biblioref">Fuegi &amp; Francis, 2003</a>)</span>. Maar, zoals gezegd, pas in de jaren ’50 van de 20e eeuw zou er echt werk gemaakt worden van AI als vakgebied, dankzij het Dartmouth Summer Research Project <span class="citation" data-cites="Moor2006dartmouth">(<a href="referenties.html#ref-Moor2006dartmouth" role="doc-biblioref">Moor, 2006</a>)</span>. Dit project was tamelijk ambitieus, maar legde enkel het grondwerk voor tal van onderzoek dat daarna zou moeten gebeuren. In 1958 werd de basis gelegd voor deep learning <span class="citation" data-cites="rosenblatt1958perceptron">Rosenblatt (<a href="referenties.html#ref-rosenblatt1958perceptron" role="doc-biblioref">1958</a>)</span> met een klein kunstmatig neuraal netwerk genaamd <strong>perceptron</strong> om de werking van zulke netwerken aan te tonen. In 1959 werd de <strong>General Problem Solver</strong> ontwikkeld die met behulp van intelligente zoekalgoritmes bepaalde problemen kon oplossen <span class="citation" data-cites="newell1959report">(<a href="referenties.html#ref-newell1959report" role="doc-biblioref">Newell e.a., 1959</a>)</span>. In 1965 werd <strong>Eliza</strong> ontwikkeld, de eerste chatbot, die een psychotherapeut simuleerde door ingetypte zinnen te lezen met geprogrammeerde patroonherkenning <span class="citation" data-cites="weizenbaum1966eliza">(<a href="referenties.html#ref-weizenbaum1966eliza" role="doc-biblioref">Weizenbaum, 1966</a>)</span>. In de latere jaren ’60 werden verbeteringen voor deep learning ontwikkeld <span class="citation" data-cites="amari1967theory">(<a href="referenties.html#ref-amari1967theory" role="doc-biblioref">Amari, 1967</a>)</span> en tegelijkertijd werden tekortkomingen van zulke netwerken benoemd. Begin jaren ’70 heerste er nog enthousiasme, zoals Minsky gezegd zou hebben:<a href="#fn17" class="footnote-ref" id="fnref17" role="doc-noteref"><sup>17</sup></a></p>
+<blockquote class="blockquote">
+<p>‘Binnen drie tot acht jaar hebben we een machine met generieke intelligentie van een gemiddelde mens. Ik bedoel een machine die Shakespeare kan lezen, een auto kan smeren, kantoorpolitiek kan spelen, een mop kan vertellen, een gevecht kan aangaan. Op dat moment zal de machine zichzelf gaan ontwikkelen met fantastische snelheid. Binnen een paar maanden zal het een genie zijn en een paar maanden daarna zullen diens krachten onvoorstelbaar zijn.’ <span class="citation" data-cites="Darrach1970shaky">(<a href="referenties.html#ref-Darrach1970shaky" role="doc-biblioref">Darrach, 1970</a>)</span></p>
+</blockquote>
+<p>Maar niet heel veel later deed een nieuw begrip diens intrede: de eerste <strong>AI Winter</strong> begon. Alle successen tot dan toe kwamen niet in de buurt bij het beeld dat geschetst werd. De intelligentie van de ontwikkelde systemen was beperkt en er waren duidelijke limitaties. Met name dankzij verloren vertrouwen in deze technologie door wat nu de Defense Advanced Research Projects Agency (DARPA, van de Verenigde Staten) heet, hield de financiering voor het onderzoek grotendeels op. Deze AI Winter hield aan tot 1980, waarin <strong>expertsystemen</strong> commercieel inzetbaar werden <span class="citation" data-cites="buchanan1988fundamentals">(<a href="referenties.html#ref-buchanan1988fundamentals" role="doc-biblioref">Buchanan &amp; Smith, 1988</a>)</span>. Hieraan werd al gewerkt in de jaren ‘60: het zijn systemen waarin kennis in regelvorm werd opgeslagen, waarna een efficiënt algoritme kon achterhalen welke kennis van belang was om een bepaald probleem op te lossen en daar de stappen voor te schetsen. In de jaren ’80 werden door grote bedrijven miljarden euro’s gespendeerd om zulke systemen te ontwikkelen en hun process te optimaliseren. Veel van deze systemen hadden echter hun mankementen, want ze waren bovenal duur om te onderhouden vanwege alle regels (en uitzonderingen daarop) die handgeschreven moesten worden. Dit zorgde voor een tweede AI Winter, die zou aanhouden van 1990 tot het begin van het nieuwe millenium. Intussen zouden er wel nieuwe doorbraken zijn, zoals <strong>reinforcement learning</strong> in het begin van de jaren ’90. Deze techniek zorgt ervoor dat een zogenaamde ’agent’ diens omgeving kan waarnemen en kan plannen om acties uit te voeren die die dichter bij diens doel brengen <span class="citation" data-cites="kaelbling1996reinforcement">(<a href="referenties.html#ref-kaelbling1996reinforcement" role="doc-biblioref">Kaelbling e.a., 1996</a>)</span>. Dit gebeurt door middel van het geven aan positieve of negatieve beloningen voor acties in die omgeving. In 1996 en 1997 speelde de computer <strong>Deep Blue</strong> tegen Gary Kasparov, wereldkampioen schaak, en versloeg deze in hun rematch <span class="citation" data-cites="campbell2002deep">(<a href="referenties.html#ref-campbell2002deep" role="doc-biblioref">Campbell e.a., 2002</a>)</span>. Dit was een mijlsteen doordat deze gebeurtenis liet zien dat een computer beter was dan een mens in een activiteit waarvoor men heel intelligent zou moeten zijn. Deep Blue’s algoritmes baseerden zich op 700.000 schaakwedstrijden van grootmeesters in schaak en een verzameling van specifieke openingszetten, waarmee de machine 200 miljoen posities per seconde kon evalueren.</p>
+<p>De volgende ontwikkeling die zorgde voor de huidige AI Lente waren neurale netwerken voor deep learning. De ideeën hiervoor bestonden al in de jaren ’60, maar uitwerkingen hiervan waren gelimiteerd door rekenkracht. Vanaf het begin van de 21e eeuw werd rekenkracht beschikbaar die ervoor zorgde dat de netwerken konden groeien van tientallen neuronen in een paar lagen tot miljoenen neuronen in tientallen lagen.<a href="#fn18" class="footnote-ref" id="fnref18" role="doc-noteref"><sup>18</sup></a> Vanaf ongeveer 2010 werden toepassingen in beeldherkenning hiermee enorm verbeterd. De mijlpaal hier was <strong>AlexNet</strong>, een deeplearning-netwerk dat in de befaamde ImageNet Challenge voor beeldherkenning als enige neurale netwerk meedeed, en won met 10 procentpunt verschil met de tweede plaats <span class="citation" data-cites="krizhevsky2012imagenet">(<a href="referenties.html#ref-krizhevsky2012imagenet" role="doc-biblioref">Krizhevsky e.a., 2012</a>)</span>. Vanaf daar was het hek van de dam en begonnen meer en meer teams en onderzoekers zich met deep learning te bezigen, net als bedrijven waarvoor commerciële inzet van zulke technieken nu haalbaar ging worden.<a href="#fn19" class="footnote-ref" id="fnref19" role="doc-noteref"><sup>19</sup></a> Deep learning leent zich niet alleen voor beelden goed, maar ook voor tekst, geluid, tijdsignalen, en vele andere soorten data <span class="citation" data-cites="lecun2015deep">(<a href="referenties.html#ref-lecun2015deep" role="doc-biblioref">LeCun e.a., 2015</a>)</span>. In het volgende hoofdstuk wordt duidelijk wat hier voor haken en ogen aan zitten, maar de mogelijkheden van deze technieken zijn duidelijk legio.</p>
+<p>Wat we de afgelopen jaren hebben meegemaakt is de opkomst van <strong>generative AI</strong> zoals grote taalmodellen of <strong>Large Language Models</strong> (LLMs) <span class="citation" data-cites="zhao2023survey">(<a href="referenties.html#ref-zhao2023survey" role="doc-biblioref">Zhao e.a., 2023</a>)</span>, met als bekendste voorbeeld <a href="https://chat.openai.com" target="_blank">ChatGPT</a>, en <strong>text-to-image</strong>-modellen die tekst kunnen omzetten in beelden, zoals <a href="https://openai.com/index/dall-e-2/" target="_blank">DALL-E</a> en <a href="https://www.midjourney.com" target="_blank">Midjourney</a> <span class="citation" data-cites="zhang2023text">(<a href="referenties.html#ref-zhang2023text" role="doc-biblioref">Zhang e.a., 2023</a>)</span>. LLMs zijn gebaseerd op de <strong>transformer</strong>-architectuur die ervoor zorgt dat tekst efficiënt gerepresenteerd kan worden <span class="citation" data-cites="vaswani2017attention">(<a href="referenties.html#ref-vaswani2017attention" role="doc-biblioref">Vaswani e.a., 2017</a>)</span>. Op basis van grote hoeveelheden tekst kunnen dan modellen worden gemaakt die verbanden in de tekst vastleggen en op die manier een ‘begrip’ hebben van die tekst. De text-to-image-modellen werken dan weer op basis van modellen die getraind zijn om ruis uit plaatjes te verwijderen, waarbij er een tekst bij het plaatje hoort die beschrijft wat er op het plaatje staat. Dit idee is in het extreme doorgedreven, door op ruizige plaatjes een model te trainen en vervolgens een plaatje met alleen ruis en een beschrijving te geven aan zo’n model <span class="citation" data-cites="yang2023diffusion">(<a href="referenties.html#ref-yang2023diffusion" role="doc-biblioref">Yang e.a., 2023</a>)</span>. De impact van deze twee technologieën is gebleken op veel vlakken en behandel ik in het volgende hoofdstuk. Duidelijk mag zijn dat AI nu al een lange historie heeft en er nog veel te gebeuren staat.</p>
+</section>
+<section id="discussies-over-ai" class="level2" data-number="1.3">
+<h2 data-number="1.3" class="anchored" data-anchor-id="discussies-over-ai"><span class="header-section-number">1.3</span> Discussies over AI</h2>
+<p>Wat de doorbraken van AI ons in ieder geval laten zien, is dat er vaak een duidelijke verwachting is van wat AI wel en niet kan. Dat kan heel fundamenteel en theoretisch zijn, zoals de vraag of AI bewustzijn kan hebben. Het kan ook heel praktisch zijn, namelijk of AI een bepaalde taak kan uitvoeren. Wat in beide gevallen vaststaat, is dat verwachtingen vaak hooggespannen zijn. Dat blijkt uit de AI winters die eerder plaatsvonden: men verwachtte veel van AI, en ook op korte termijn. Dit is een typisch gegeven voor nieuwe technologie, wat beschreven kan worden met de <em>hype cycle</em>, bekend dankzij onderzoeks- en adviesbureau Gartner.<a href="#fn20" class="footnote-ref" id="fnref20" role="doc-noteref"><sup>20</sup></a> Het principe hiervan is het beste uit te leggen met deze figuur:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/hype-cycle.png" class="img-fluid figure-img"></p>
+<figcaption>De hype-cycle van nieuwe technologie</figcaption>
+</figure>
+</div>
+<p>Voor nieuwe technologieën kunnen vijf fases beschreven worden:<a href="#fn21" class="footnote-ref" id="fnref21" role="doc-noteref"><sup>21</sup></a></p>
+<ol type="1">
+<li>Technologie-trigger: de eerste verhalen over een technologie doen de ronde.</li>
+<li>Hoogtepunt van opgeblazen verwachtingen: men raakt meer dan enthousiast, de hype is op diens hoogtepunt.</li>
+<li>Trog van desillusie: de technologie lost de verwachtingen niet in, wat blijkt uit falende implementaties en experimenten.</li>
+<li>Helling van verlichting: bepaalde implementaties werken toch en worden doorontwikkeld.</li>
+<li>Plateau van productiviteit: adoptie van de technologie door het grote publiek.</li>
+</ol>
+<p>Gartner probeert met invullingen van deze hype cycle inzicht te bieden in welke technologieën op welke plek in de curve zitten. Zo ook voor AI, en alle afzonderlijke technieken in dit veld. Volgens recente voorspellingen van Gartner zit bijvoorbeeld <em>Generative AI</em> (de taalmodellen en plaatjesgeneratoren) al voorbij het hoogtepunte van fase twee <span class="citation" data-cites="Gartner2024emerging">(<a href="referenties.html#ref-Gartner2024emerging" role="doc-biblioref">Gartner, Inc., 21 August 2024</a>)</span>. Een inzicht dat belangrijk is bij dergelijke voorspellingen komt van de hand van Roy Amara, onderzoeker bij verschillende Amerikaanse universiteiten en futuroloog.<a href="#fn22" class="footnote-ref" id="fnref22" role="doc-noteref"><sup>22</sup></a></p>
+<blockquote class="blockquote">
+<p><strong>De Wet van Amara</strong>: We hebben de neiging om het effect van een technologie op de korte termijn te overschatten en het effect op de lange termijn te onderschatten.</p>
+</blockquote>
+<p>Het plateau van productiviteit kan uiteindelijk hoger liggen dan we verwachten als we gedesillusioneerd zijn. En wellicht is de impact van een technologie anders dan verwacht, wat maar al te vaak gebeurt.</p>
+<p>Als we kijken naar wat we uiteindelijk kunnen verwachten bij AI, is de hamvraag hoe intelligent deze technologie werkelijk kan worden. Is het theoretisch en ook praktisch mogelijk dat AI slimmer wordt dan mensen? Deze fundamentele vraag splitst het AI-veld ook op in twee grote kampen: zij die de <strong>strong AI</strong> aanhangen versus de <strong>weak AI</strong> <span class="citation" data-cites="liu2021weak">(<a href="referenties.html#ref-liu2021weak" role="doc-biblioref">Liu, 2021</a>)</span>. De laatste betekent zoveel als AI die toegespitst is op één toepassing, zoals het herkennen van plaatjes. Dit wordt ook wel <em>narrow AI</em> genoemd. De lading hiervan is dat AI goed kan zijn in afzonderlijke taken en hiermee mensen kan ondersteunen, maar geen generieke taken kan oppakken. Sommigen zijn ervan overtuigd dat dit voor AI nooit mogelijk zal zijn.<a href="#fn23" class="footnote-ref" id="fnref23" role="doc-noteref"><sup>23</sup></a> Aan de andere kant van het spectrum zit de strong AI, waaronder AI valt die wel degelijk generieke taken kan oppakken, dan wel bewustzijn kan hebben of superintelligent kan zijn <span class="citation" data-cites="Bostrom2014superintelligence">(<a href="referenties.html#ref-Bostrom2014superintelligence" role="doc-biblioref">Bostrom, 2015</a>)</span>. Eén van de centrale aannames hierbij is dat, als we de hersenen van een mens perfect kunnen namaken in termen van input, output, en het complete neurale netwerk daartussen, we in staat zijn menselijke intelligentie te maken <span class="citation" data-cites="Cole2004chineseroom">(<a href="referenties.html#ref-Cole2004chineseroom" role="doc-biblioref">Cole, 2004</a>)</span>. Kort door de bocht gezegd is het idee dat hersenen een computer zijn. Functioneel gezien zou er dan namelijk geen verschil moeten zijn tussen een ‘normale’ mens en een nagemaakte mens die draait op andere <em>hardware</em>.</p>
+<p>Dit zijn grote discussies en zeker geen uitdagingen die ik in deze rede of in ons lectoraat als geheel wil aanpakken.<a href="#fn24" class="footnote-ref" id="fnref24" role="doc-noteref"><sup>24</sup></a> Maar ze zetten wel de toon voor de verwachtingen over AI als technologie en einddoelen die we wel of niet willen najagen. In <a href="20_uitdagingen.html" class="quarto-xref"><span>Hoofdstuk 2</span></a> richt ik me op praktische uitdagingen voor de komende jaren die we tegemoet gaan, en waar we ons volgens mij op zouden moeten richten.</p>
+
+
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list" style="display: none">
+<div id="ref-amari1967theory" class="csl-entry" role="listitem">
+Amari, S. (1967). A theory of adaptive pattern classifiers. <em>IEEE Transactions on Electronic Computers</em>, <em>3</em>, 299–307.
+</div>
+<div id="ref-Bostrom2014superintelligence" class="csl-entry" role="listitem">
+Bostrom, N. (2015). <em>Superintelligence: Paths, Dangers, Strategies</em>. Oxford University Press.
+</div>
+<div id="ref-Buchanan2005very" class="csl-entry" role="listitem">
+Buchanan, B. G. (2005). A (very) brief history of artificial intelligence. <em><span>AI Magazine</span></em>, <em>26</em>(4), 53–60.
+</div>
+<div id="ref-buchanan1988fundamentals" class="csl-entry" role="listitem">
+Buchanan, B. G., &amp; Smith, R. G. (1988). Fundamentals of expert systems. <em>Annual review of computer science</em>, <em>3</em>(1), 23–58.
+</div>
+<div id="ref-campbell2002deep" class="csl-entry" role="listitem">
+Campbell, M., Hoane Jr, A. J., &amp; Hsu, F. (2002). Deep blue. <em>Artificial intelligence</em>, <em>134</em>(1-2), 57–83.
+</div>
+<div id="ref-Cave2019hopes" class="csl-entry" role="listitem">
+Cave, S., &amp; Dihal, K. (2019). Hopes and fears for intelligent machines in fiction and reality. <em>Nature machine intelligence</em>, <em>1</em>(2), 74–78.
+</div>
+<div id="ref-chrisley2003embodied" class="csl-entry" role="listitem">
+Chrisley, R. (2003). Embodied artificial intelligence. <em>Artificial intelligence</em>, <em>149</em>(1), 131–150.
+</div>
+<div id="ref-Cole2004chineseroom" class="csl-entry" role="listitem">
+Cole, D. (2004). <span>The Chinese Room Argument</span>. In <em>The <span>Stanford</span> Encyclopedia of Philosophy</em>. <a href="https://plato.stanford.edu/entries/chinese-room/" class="uri">https://plato.stanford.edu/entries/chinese-room/</a>; Metaphysics Research Lab, Stanford University.
+</div>
+<div id="ref-Copeland2024turing" class="csl-entry" role="listitem">
+Copeland, B. (2024a). <em>Alan Turing</em>. <a href="https://www.britannica.com/biography/Alan-Turing">https://www.britannica.com/biography/Alan-Turing</a>
+</div>
+<div id="ref-Copeland2024historyai" class="csl-entry" role="listitem">
+Copeland, B. (2024b). <em>History of artificial intelligence (AI)</em>. <a href="https://www.britannica.com/science/history-of-artificial-intelligence">https://www.britannica.com/science/history-of-artificial-intelligence</a>
+</div>
+<div id="ref-Darrach1970shaky" class="csl-entry" role="listitem">
+Darrach, B. (1970). Meet Shaky, the first electronic person. <em>Life</em>, <em>November</em>, 58–68.
+</div>
+<div id="ref-Dennett2017" class="csl-entry" role="listitem">
+Dennett, D. (2017). <em>From Bacteria to Bach and Back: The Evolution of Minds</em>. W. W. Norton &amp; Company.
+</div>
+<div id="ref-fuegi2003lovelace" class="csl-entry" role="listitem">
+Fuegi, J., &amp; Francis, J. (2003). Lovelace &amp; Babbage and the creation of the 1843 <span>‘notes’</span>. <em>IEEE Annals of the History of Computing</em>, <em>25</em>(4), 16–26.
+</div>
+<div id="ref-Gartner2024emerging" class="csl-entry" role="listitem">
+Gartner, Inc. (21 August 2024). <em>Gartner 2024 Hype Cycle for Emerging Technologies Highlights Developer Productivity, Total Experience, AI and Security</em>. <a href="https://www.gartner.com/en/newsroom/press-releases/2024-08-21-gartner-2024-hype-cycle-for-emerging-technologies-highlights-developer-productivity-total-experience-ai-and-security" class="uri">https://www.gartner.com/en/newsroom/press-releases/2024-08-21-gartner-2024-hype-cycle-for-emerging-technologies-highlights-developer-productivity-total-experience-ai-and-security</a>.
+</div>
+<div id="ref-heckerman1998tutorial" class="csl-entry" role="listitem">
+Heckerman, D. (1998). A tutorial on learning with Bayesian networks. <em>Learning in graphical models</em>, 301–354.
+</div>
+<div id="ref-hofstadter1999godel" class="csl-entry" role="listitem">
+Hofstadter, D. R. (1999). <em>G<span>ö</span>del, Escher, Bach: an eternal golden braid</em>. Basic books.
+</div>
+<div id="ref-kaelbling1996reinforcement" class="csl-entry" role="listitem">
+Kaelbling, L. P., Littman, M. L., &amp; Moore, A. W. (1996). Reinforcement learning: A survey. <em>Journal of artificial intelligence research</em>, <em>4</em>, 237–285.
+</div>
+<div id="ref-krizhevsky2012imagenet" class="csl-entry" role="listitem">
+Krizhevsky, A., Sutskever, I., &amp; Hinton, G. E. (2012). Imagenet classification with deep convolutional neural networks. <em>Advances in neural information processing systems</em>, <em>25</em>.
+</div>
+<div id="ref-kumar2023artificial" class="csl-entry" role="listitem">
+Kumar, Y., Koul, A., Singla, R., &amp; Ijaz, M. F. (2023). Artificial intelligence in disease diagnosis: a systematic literature review, synthesizing framework and future research agenda. <em>Journal of ambient intelligence and humanized computing</em>, <em>14</em>(7), 8459–8486.
+</div>
+<div id="ref-lecun1998mnist" class="csl-entry" role="listitem">
+LeCun, Y. (1998). <em>The MNIST database of handwritten digits</em>. <a href="http://yann.lecun.com/exdb/mnist/">http://yann.lecun.com/exdb/mnist/</a>
+</div>
+<div id="ref-lecun2015deep" class="csl-entry" role="listitem">
+LeCun, Y., Bengio, Y., &amp; Hinton, G. (2015). Deep learning. <em>Nature</em>, <em>521</em>(7553), 436–444.
+</div>
+<div id="ref-lecun1995comparison" class="csl-entry" role="listitem">
+LeCun, Y., Jackel, L., Bottou, L., Brunot, A., Cortes, C., Denker, J., Drucker, H., Guyon, I., Muller, U., Sackinger, E., e.a. (1995). Comparison of learning algorithms for handwritten digit recognition. <em>International conference on artificial neural networks</em>, <em>60</em>, 53–60.
+</div>
+<div id="ref-liu2021weak" class="csl-entry" role="listitem">
+Liu, B. (2021). "Weak AI" is Likely to Never Become "Strong AI", So What is its Greatest Value for us? <em>arXiv preprint arXiv:2103.15294</em>.
+</div>
+<div id="ref-macal2016everything" class="csl-entry" role="listitem">
+Macal, C. M. (2016). Everything you need to know about agent-based modelling and simulation. <em>Journal of Simulation</em>, <em>10</em>(2), 144–156.
+</div>
+<div id="ref-Mccarthy2006proposal" class="csl-entry" role="listitem">
+McCarthy, J., Minsky, M. L., Rochester, N., &amp; Shannon, C. E. (2006). <span>A proposal for the Dartmouth Summer Research Project on Artificial Intelligence, August 31, 1955</span>. <em>AI magazine</em>, <em>27</em>(4), 12–14.
+</div>
+<div id="ref-mitchell1998introduction" class="csl-entry" role="listitem">
+Mitchell, M. (1998). <em>An introduction to genetic algorithms</em>. MIT press.
+</div>
+<div id="ref-modha2011cognitive" class="csl-entry" role="listitem">
+Modha, D. S., Ananthanarayanan, R., Esser, S. K., Ndirango, A., Sherbondy, A. J., &amp; Singh, R. (2011). Cognitive computing. <em>Communications of the ACM</em>, <em>54</em>(8), 62–71.
+</div>
+<div id="ref-Moor2006dartmouth" class="csl-entry" role="listitem">
+Moor, J. (2006). <span>The Dartmouth College artificial intelligence conference: The next fifty years</span>. <em>AI Magazine</em>, <em>27</em>(4), 87–91.
+</div>
+<div id="ref-newell1959report" class="csl-entry" role="listitem">
+Newell, A., Shaw, J. C., &amp; Simon, H. A. (1959). Report on a general problem solving program. <em>IFIP congress</em>, <em>256</em>, 64.
+</div>
+<div id="ref-nishant2020artificial" class="csl-entry" role="listitem">
+Nishant, R., Kennedy, M., &amp; Corbett, J. (2020). Artificial intelligence for sustainability: Challenges, opportunities, and a research agenda. <em>International Journal of Information Management</em>, <em>53</em>, 102104.
+</div>
+<div id="ref-pinar2000turing" class="csl-entry" role="listitem">
+Pinar Saygin, A., Cicekli, I., &amp; Akman, V. (2000). Turing test: 50 years later. <em>Minds and machines</em>, <em>10</em>(4), 463–518.
+</div>
+<div id="ref-rosenblatt1958perceptron" class="csl-entry" role="listitem">
+Rosenblatt, F. (1958). The perceptron: a probabilistic model for information storage and organization in the brain. <em>Psychological review</em>, <em>65</em>(6), 386.
+</div>
+<div id="ref-Russell2016artificial" class="csl-entry" role="listitem">
+Russell, S. J., &amp; Norvig, P. (2016). <em>Artificial intelligence: a modern approach</em> (4th dr.). Pearson.
+</div>
+<div id="ref-sejnowski2023large" class="csl-entry" role="listitem">
+Sejnowski, T. J. (2023). Large language models and the reverse turing test. <em>Neural computation</em>, <em>35</em>(3), 309–342.
+</div>
+<div id="ref-Shanahan2016" class="csl-entry" role="listitem">
+Shanahan, M. (2016). <span>The Frame Problem</span>. In E. N. Zalta (Red.), <em>The <span>Stanford</span> Encyclopedia of Philosophy</em> (<span>S</span>pring 2016). <a href="https://plato.stanford.edu/archives/spr2016/entries/frame-problem/" class="uri">https://plato.stanford.edu/archives/spr2016/entries/frame-problem/</a>; Metaphysics Research Lab, Stanford University.
+</div>
+<div id="ref-shi2020artificial" class="csl-entry" role="listitem">
+Shi, Z., Yao, W., Li, Z., Zeng, L., Zhao, Y., Zhang, R., Tang, Y., &amp; Wen, J. (2020). Artificial intelligence techniques for stability analysis and control in smart grids: Methodologies, applications, challenges and future directions. <em>Applied Energy</em>, <em>278</em>, 115733.
+</div>
+<div id="ref-Turing1950ai" class="csl-entry" role="listitem">
+Turing, A. M. (1950). <span>I.—Computing Machinery and Intelligence</span>. <em>Mind</em>, <em>LIX</em>(236), 433–460. <a href="https://doi.org/10.1093/mind/LIX.236.433">https://doi.org/10.1093/mind/LIX.236.433</a>
+</div>
+<div id="ref-vaswani2017attention" class="csl-entry" role="listitem">
+Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., Kaiser, L., &amp; Polosukhin, I. (2017). Attention is all you need. <em>Advances in Neural Information Processing Systems</em>.
+</div>
+<div id="ref-weizenbaum1966eliza" class="csl-entry" role="listitem">
+Weizenbaum, J. (1966). ELIZA—a computer program for the study of natural language communication between man and machine. <em>Communications of the ACM</em>, <em>9</em>(1), 36–45.
+</div>
+<div id="ref-enwiki:1238546461" class="csl-entry" role="listitem">
+Wikipedia contributors. (2024a). <em>History of artificial intelligence — <span>Wikipedia</span><span>,</span> The Free Encyclopedia</em>. <a href="https://en.wikipedia.org/w/index.php?title=History_of_artificial_intelligence&amp;oldid=1238546461" class="uri">https://en.wikipedia.org/w/index.php?title=History_of_artificial_intelligence&amp;oldid=1238546461</a>.
+</div>
+<div id="ref-enwiki:1237425964" class="csl-entry" role="listitem">
+Wikipedia contributors. (2024b). <em>Roy Amara — <span>Wikipedia</span><span>,</span> The Free Encyclopedia</em>. <a href="https://en.wikipedia.org/w/index.php?title=Roy_Amara&amp;oldid=1237425964" class="uri">https://en.wikipedia.org/w/index.php?title=Roy_Amara&amp;oldid=1237425964</a>.
+</div>
+<div id="ref-enwiki:1240226624" class="csl-entry" role="listitem">
+Wikipedia contributors. (2024c). <em>Timeline of artificial intelligence — <span>Wikipedia</span><span>,</span> The Free Encyclopedia</em>. <a href="https://en.wikipedia.org/w/index.php?title=Timeline_of_artificial_intelligence&amp;oldid=1240226624" class="uri">https://en.wikipedia.org/w/index.php?title=Timeline_of_artificial_intelligence&amp;oldid=1240226624</a>.
+</div>
+<div id="ref-yang2023diffusion" class="csl-entry" role="listitem">
+Yang, L., Zhang, Z., Song, Y., Hong, S., Xu, R., Zhao, Y., Zhang, W., Cui, B., &amp; Yang, M.-H. (2023). Diffusion models: A comprehensive survey of methods and applications. <em>ACM Computing Surveys</em>, <em>56</em>(4), 1–39.
+</div>
+<div id="ref-zhang2023text" class="csl-entry" role="listitem">
+Zhang, C., Zhang, C., Zhang, M., &amp; Kweon, I. S. (2023). Text-to-image diffusion models in generative ai: A survey. <em>arXiv preprint arXiv:2303.07909</em>.
+</div>
+<div id="ref-zhao2023survey" class="csl-entry" role="listitem">
+Zhao, W. X., Zhou, K., Li, J., Tang, T., Wang, X., Hou, Y., Min, Y., Zhang, B., Zhang, J., Dong, Z., e.a. (2023). A survey of large language models. <em>arXiv preprint arXiv:2303.18223</em>.
+</div>
+</div>
+</section>
+<section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn1"><p>Hierom wordt AI tegenwoordig bestempeld als <em>key enabling technology</em> (KET). Andere <a href="https://www.nwo.nl/en/key-enabling-technologies" target="_blank">KETs</a> zijn bijvoorbeeld fotonica, nanotechnologie, robotica en quantum computing.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>Ook hiervoor geldt het patroon dat, wie niet leert van de geschiedenis, gedoemd is deze te herhalen.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>Met deze introductie doe ik veel onderzoek en innovaties binnen AI te kort (zoals genetische algoritmen <span class="citation" data-cites="mitchell1998introduction">(<a href="referenties.html#ref-mitchell1998introduction" role="doc-biblioref">Mitchell, 1998</a>)</span>, agent-based modellen <span class="citation" data-cites="macal2016everything">(<a href="referenties.html#ref-macal2016everything" role="doc-biblioref">Macal, 2016</a>)</span> en Bayesiaanse netwerken <span class="citation" data-cites="heckerman1998tutorial">(<a href="referenties.html#ref-heckerman1998tutorial" role="doc-biblioref">Heckerman, 1998</a>)</span>), maar anders wordt deze sectie te lang. Een uitspraak die mij is bijgebleven van mijn studiejaren is dat het lezen van het boek <em>Gödel, Escher, Bach</em> van Daniel Hofstadter in theorie een propedeusediploma in AI zou moeten opleveren <span class="citation" data-cites="hofstadter1999godel">(<a href="referenties.html#ref-hofstadter1999godel" role="doc-biblioref">Hofstadter, 1999</a>)</span>. Ook van mijn kant is dit een aanrader, nog steeds.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p>Turing leidde een bijzonder maar ook tragisch leven. Hij legde het grondwerk voor het vakgebied van theoretische informatica en hielp de Britten de Enigma-code kraken tijdens de Tweede Wereldoorlog. Vanwege zijn homoseksuele geaardheid werd hij berecht en stierf op 41-jarige leeftijd door cyanide-vergiftiging, al dan niet zelf toegebracht <span class="citation" data-cites="Copeland2024turing">(<a href="referenties.html#ref-Copeland2024turing" role="doc-biblioref">Copeland, 2024a</a>)</span>.<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5"><p>Vertaald uit het Engels.<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn6"><p>Taalmodellen op basis van <em>transformers</em> die weer voortkomen uit <em>deep learning</em>, meer hierover in het volgende hoofdstuk.<a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn7"><p>Een voorzetje voor het nawoord, voor diegenen die meer te weten willen komen over de details van AI: de <a href="https://www.ai-cursus.nl" target="_blank">Nationale AI-cursus</a> met een uitstekende uitleg, en de diepgaandere <a href="https://tinyurl.com/SaxionAI" target="_blank">AI-trainingssessies van Saxion</a> die we vanuit ons lectoraat Ambient Intelligence ontwikkeld hebben.<a href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn8"><p>Daarbij is ook nog het verschil te maken tussen systemen die eenmalig leren en als ze draaien niet verder leren, en de systemen die steeds nieuwe data verzamelen en op basis daarvan nieuwe dingen leren. Dit laatste wordt vaak verwacht van AI, maar is juist vaak <em>niet</em> het geval. De volgende hoofdstukken lichten dat in meer detail toe.<a href="#fnref8" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn9"><p>Dit wordt liefkozend <strong>GOFAI</strong> genoemd: Good Old-Fashioned AI.<a href="#fnref9" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn10"><p>Wat moet wel en niet beschreven worden <span class="citation" data-cites="Shanahan2016">(<a href="referenties.html#ref-Shanahan2016" role="doc-biblioref">Shanahan, 2016</a>)</span>? Kan intelligentie los van een lichaam gezien worden <span class="citation" data-cites="chrisley2003embodied">(<a href="referenties.html#ref-chrisley2003embodied" role="doc-biblioref">Chrisley, 2003</a>)</span>?<a href="#fnref10" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn11"><p>Zie <a href="https://yann.lecun.com/exdb/mnist/" target="_blank">de originele dataset</a> <span class="citation" data-cites="lecun1998mnist">(<a href="referenties.html#ref-lecun1998mnist" role="doc-biblioref">LeCun, 1998</a>)</span>.<a href="#fnref11" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn12"><p>Dit is <em>supervised</em> learning, waarbij er ook <em>unsupervised</em> learning bestaat, met andere doelen, bijvoorbeeld om onbekende data te analyseren <span class="citation" data-cites="Russell2016artificial">(<a href="referenties.html#ref-Russell2016artificial" role="doc-biblioref">Russell &amp; Norvig, 2016</a>)</span>. Gebruikelijk is dat er duizenden voorbeelden getoond moeten worden aan netwerk voordat het goed werkt.<a href="#fnref12" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn13"><p>De Encyclopedia Brittanica legt het bondig uit, met tal van verwijzingen <span class="citation" data-cites="Copeland2024historyai">(<a href="referenties.html#ref-Copeland2024historyai" role="doc-biblioref">Copeland, 2024b</a>)</span>, maar ook de Wikipedia is hiervoor een goed startpunt <span class="citation" data-cites="enwiki:1238546461 enwiki:1240226624">(<a href="referenties.html#ref-enwiki:1238546461" role="doc-biblioref">Wikipedia contributors, 2024a</a>, <a href="referenties.html#ref-enwiki:1240226624" role="doc-biblioref">2024c</a>)</span>. De website <a href="https://www.theainavigator.com/ai-timeline" target="_blank">AI Navigator</a> laat visueel een hele reeks doorbraken zien met meer detail.<a href="#fnref13" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn14"><p>Vertaald uit het Engels.<a href="#fnref14" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn15"><p>Destijds de <em>Imitation Game</em> genoemd.<a href="#fnref15" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn16"><p>Niet alleen omdat zij benoemd wordt de eerste computerprogrammeur geweest te zijn <span class="citation" data-cites="fuegi2003lovelace">(<a href="referenties.html#ref-fuegi2003lovelace" role="doc-biblioref">Fuegi &amp; Francis, 2003</a>)</span>.<a href="#fnref16" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn17"><p>Vertaald uit het Engels.<a href="#fnref17" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn18"><p>Dit kon dankzij zogenaamde <strong>Graphical Processing Units</strong>, die videokaarten in computers die parallelle berekeningen doen voor beelden en uitstekend geschikt zijn voor parallelle berekeningen in neurale netwerken.<a href="#fnref18" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn19"><p>Dat wil zeggen, voor complexere taken. Beeldherkenning voor bijvoorbeeld adresherkenning op brieven bestaat al sinds de jaren ’90 <span class="citation" data-cites="lecun1995comparison">(<a href="referenties.html#ref-lecun1995comparison" role="doc-biblioref">LeCun e.a., 1995</a>)</span>.<a href="#fnref19" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn20"><p>Zie <a href="https://www.gartner.com/en/research/methodologies/gartner-hype-cycle" target="_blank">de uitleg</a> van deze methode.<a href="#fnref20" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn21"><p>Vertaald uit het Engels.<a href="#fnref21" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn22"><p>Er zijn weinig goed toegankelijke bronnen te vinden over Amara; de beste plek om meer te weten te komen is via Wikipedia <span class="citation" data-cites="enwiki:1237425964">(<a href="referenties.html#ref-enwiki:1237425964" role="doc-biblioref">Wikipedia contributors, 2024b</a>)</span>.<a href="#fnref22" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn23"><p>Ik laat de discussies hierover voor nu buiten beschouwing, maar in essentie gaat hier over de mogelijkheden of AI begrip en bewustzijn kan hebben. Zie bijvoorbeeld het gedachte-experiment van John Searle over de <em>Chinese Kamer</em> <span class="citation" data-cites="Cole2004chineseroom">(<a href="referenties.html#ref-Cole2004chineseroom" role="doc-biblioref">Cole, 2004</a>)</span>, iets waar bijvoorbeeld Daniel Dennett het faliekant mee oneens is <span class="citation" data-cites="Dennett2017">(<a href="referenties.html#ref-Dennett2017" role="doc-biblioref">Dennett, 2017</a>)</span>.<a href="#fnref23" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn24"><p>Ik zal er wel op reflecteren in <a href="30_toekomst.html" class="quarto-xref"><span>Hoofdstuk 3</span></a>.<a href="#fnref24" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Gekopieerd!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Gekopieerd!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./index.html" class="pagination-link" aria-label="Voorwoord: Denken in patronen">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Voorwoord: Denken in patronen</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./20_uitdagingen.html" class="pagination-link" aria-label="Uitdagingen: Het belang van wederzijds begrip">
+        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Uitdagingen: Het belang van wederzijds begrip</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

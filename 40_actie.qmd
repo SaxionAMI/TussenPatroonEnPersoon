@@ -1,0 +1,210 @@
+# Actie: Samen verantwoordelijk {#sec-actie}
+
+> **Samenvatting**
+>
+> Deze rede richt zich op bewustwording, maar is ook een aanzet tot actie.
+> Mijn drie aanbevelingen over AI zijn: verbeter wederzijds begrip, onderzoek de impact van AI, en pas een goede methode toe.
+> Ons lectoraat Ambient Intelligence zet hiervoor stappen samen met het onderwijs, andere hogescholen, en het bedrijfsleven.
+> Het is voor iedereen belangrijk diens AI-geletterdheid te verbeteren.
+> Een aantal startpunten daarvoor is beschikbaar als huiswerk na het lezen van deze rede.
+
+## Terug naar het nu: what will (A)I do?
+
+Het is tijd voor actie.
+Het lijkt wellicht flauw om dit bij ieder individu te leggen, maar ik wil onderstrepen dat je jezelf niet moet onderschatten.
+Stel jezelf de vraag: _What will (A)I do?_
+
+Onderzoek en wetenschap dienen de maatschappij.
+Als lectoraat komen we tot nieuwe inzichten op specifieke onderwerpen, zoals AI.
+We signaleren wat er gebeurt in fundamenteel onderzoek, testen dit in echte casussen, en bekijken hoe we bedrijven verder kunnen helpen hiermee.
+Dit is toegepast onderzoek, dat leidt tot aanbevelingen voor verantwoord en onderbouwd gebruik van deze technologie.
+Hieronder doe ik een aantal aanbevelingen over AI, geef ik aan wat ons lectoraat Ambient Intelligence gaat doen, en wat we gezamenlijk zouden moeten doen.
+
+### Aanbevelingen over AI
+
+Mijn aanbevelingen over AI vallen samen te vatten in drie punten.
+
+#### 1. Verbeter wederzijds begrip. {.unnumbered}
+
+In de symbiose tussen mens en machine moeten zij elkaars patronen herkennen en interpreteren.
+Er is dus noodzaak voor verantwoordelijkheid van begrip van beide kanten.
+Mensen moeten leren hoe algoritmes toegepast worden, waarop zij gebaseerd zijn, en wat de mogelijkheden en tekortkomingen ervan zijn.
+Dit vergt een hogere **AI-geletterdheid** en kan geholpen worden door onderzoek naar **Explainable AI**.
+Hiermee zijn mensen beter in staat AI op waarde te schatten.
+Machines, de AI-systemen, moeten snappen wat mensen bedoelen, wat hun intenties en verwachtingen zijn.
+De inzet van algoritmes moet worden aangepast aan de belangen van mensen, op een verantwoorde en dus duurzame manier.
+Dit betekent dat het proces deels participatief moet plaatsvinden, zodat belanghebbenden goed betrokken worden.
+Op technisch vlak betekent dit dat bepaalde stappen in het proces zo goed als mogelijk geautomatiseerd kunnen worden, zoals via **DataOps** en **MLOps**.
+Voor de machines betekent dit dat zij meer **mensgeletterd** moeten worden.
+
+#### 2. Onderzoek de impact van AI. {.unnumbered}
+
+De onderzoeksagenda rondom AI moet verscherpt worden.
+Er is niet alleen behoefte aan kortetermijndenken voor de huidige hype van AI met alle generatieve vormen.
+We moeten een pad schetsen voor de impact van AI op langere termijn.
+Als we dat niet doen, onderschatten we de mogelijke effecten van AI, zoals de **Wet van Amara** ons waarschuwt.
+Initiatieven rondom het verantwoord omgaan met onze data, zoals de de **Data Act** en de **AI Act** van de EU, ondersteunen dit.
+Als we nu nadenken over welke richting we opsturen, helpt dat ons doemscenario's zo goed als mogelijk in te schatten.
+Op technisch vlak dienen we onderzoek te doen naar concepten als **responsible by design** en de integratie van normen en waarden in het ontwerp van AI-systemen [@jobin2019global; @diaz2023connecting].
+
+#### 3. Pas een goede methode toe. {.unnumbered}
+
+AI is geen magie, maar het is ook geen 1 + 1 = 2.
+Er zijn vele _unknown unknowns_, zaken waarvan we niet weten dat we ze niet weten.
+Wat we kunnen doen is dit gestructureerd aanpakken.
+Wetenschappelijke methodes helpen daarbij en gaan per definitie gepaard met discussies en onzekerheden.
+Dit betekent niet dat we zulke processen moeten loslaten, maar dat we iteratief moeten bekijken wat wel en niet werkt.
+Enige terughoudendheid en reflectie op de ontwikkeling van AI is in mijn ogen belangrijk.
+De insteek is niet om te treuzelen hierop, maar juist van tevoren de (on)mogelijkheden en risico's van AI in kaart te brengen.
+Methodes zoals **CRISP-DM** zijn hiervoor een basale aanzet.
+De integratie van AI in complexe vraagstukken vraagt echter veel meer, namelijk de betrokkenheid van alle belanghebbenden.
+Enkel een bestuurlijk-technische aanpak hiervoor is zeker niet voldoende.
+Dit maakt een multidisciplinair, overkoepelend proces noodzakelijk en dit verdient nog veel meer (toegepast!) onderzoek.
+
+### Het lectoraat in actie
+
+Met ons lectoraat Ambient Intelligence zetten we stappen die deze aanbevelingen volgen.
+Samenwerking is van belang en focus ook.
+We richten ons op de technische aspecten van de symbiose tussen mens en machine, waarbij we uitgaan van verantwoorde, human-centered principes voor de ontwikkeling en toepassing van AI.
+Zoals keer en te meer benoemd zijn **Explainable AI** (XAI) en **MLOps** de twee pilaren van ons AI-gerichte onderzoek.
+Er zijn verschillende onderwerpen die hieraan grenzen en die we onderzoeken.
+**Edge intelligence** omvat de studie naar efficiënte inzet voor intelligente systemen die op zichzelf staan, op kleine systemen die weinig energie verbruiken en deels onafhankelijk zijn van de cloud [@deng2020edge].
+Ook staat **_immersive_ data-visualisatie voor data-exploratie** op onze roadmap, waarin we onderzoek doen naar alternatieve manieren om data te verkennen, zoals door 3D-visualisaties in **virtual reality** [@qin2020making; @kraus2022immersive].
+
+In drie verschillende SPRONG-programma's doen we op dit moment gezamenlijk met andere lectoraten en andere organisaties onderzoek.
+Een [SPRONG-programma](https://regieorgaan-sia.nl/financiering/sprong/){target="_blank"} dient ertoe deze partners samen te brengen tot één grote onderzoeksgroep, in een traject van acht jaar.
+In de SPRONG [Data Engineering en Management in Dataketens](https://demand.nl){target="_blank"} (**DEMAND**) richten we ons op de noodzaak om veilig, verantwoord en efficient met data om te gaan.
+Datagedreven werken met AI kan immers alleen als het data-fundament op orde is.
+Samen met Saxion, en de HAN en Fontys hogescholen onderzoeken we onderwerpen als data management, data engineering en AI engineering om deze kennis te ontwikkelen en delen.
+In de SPRONG [Digital Driven Manufacturing](https://techforfuture.nl/programma/ddm/){target="_blank"} (**DDM**) onderzoeken we hoe we de maakindustrie met AI en robotica verder kunnen digitaliseren, om deze efficiënter in te richten en het professionals in deze sector te ondersteunen.
+Dit is een samenwerking tussen Saxion en Windesheim hogescholen, gericht op onderwerpen als autonome navigatie in industriële omgevingen, predictief onderhoud en procesautomatisering.
+In onze derde SPRONG **[GROUNDED](https://www.saxion.nl/onderzoek/areas-and-living/bodem-en-ondergrond/grounded-het-onzichtbare-toepasbaar-maken){target="_blank"}** bekijken we hoe we een gezonde, veilige en duurzame leefomgeving kunnen ontwikkelen met behulp van sensoren, data-analyses en mens-machine-interactie.
+Dit pakken Saxion en de Haagse Hogeschool samen op door onderzoek te doen naar nanotechnologie voor nieuwe sensoren om data te verzamelen, data beschikbaar te maken in dataplatforms, en analyses van deze met AI uit te voeren en interpreteerbaar te maken.
+Via deze SPRONGen en met hun partners ontwikkelen en toetsen we onze kennis op data- en AI-gebied, en delen deze kennis met belanghebbenden.
+
+Als lectoraat verbreden en verdiepen we onze verbinding met onderwijs.
+In de nieuwe bachelor-opleiding **[Applied Data Science & AI](https://www.saxion.nl/adsai){target="_blank"}** en de master **[ICT: Software Engineering](https://www.saxion.nl/mict){target="_blank"}**, en de bachelor **[HBO-ICT](https://www.saxion.nl/opleidingen/voltijd/bachelor/hbo-ict){target="_blank"}** werken de docent-onderzoekers van ons lectoraat mee om relevant en toekomstgericht onderwijs over AI op te zetten en uit te voeren.
+Dit reikt van introducties tot machine learning en CRISP-DM als methodologie tot diepgaande uitleg over deep learning en MLOps.
+Ook streven we ons onderwijsmateriaal goed deelbaar te maken binnen Saxion, want AI is voor ieder vak van belang.
+Daarnaast onderzoeken we hoe we AI voor onderwijs in kunnen zetten, zoals wat de mogelijkheden zijn voor chatbots die docenten en studenten ondersteunen.
+We werken mee aan onderwijs over AI en AI voor onderwijs.
+
+In Deventer openden we tijdens mijn installatie als lector op 17 oktober ons **Data+AI Lab**, als samenwerking tussen de lectoraten Ambient Intelligence en **[Smart Cities](https://www.saxion.nl/sc){target="_blank"}**, vanuit de SPRONG DEMAND.
+De doelstelling van het Data+AI Lab is kennis over data en AI ontwikkelen, bundelen en beschikbaar maken.
+De hoofdvraag is dan ook hoe we de symbiotische samenwerking tussen mens en machine kunnen ondersteunen.
+Dit doen we vanuit principes voor datagedreven werken: verantwoord, duurzaam en human-centred.
+Van belang zijn het duiden van de juiste processen en _methodes_, de beschikbare _tools_ zoals softwareframeworks en -pakketten, en de toepasbare _technieken_, namelijk algoritmes voor machine learning, deep learning, en andersoortige AI.
+Vanuit het onderzoek dat we in dit lab uitvoeren met onze docent-onderzoekers, bedrijven, overheden en studenten, stellen we hiervoor **best practices** op.
+Ook experimenteren we met cloud computing voor rekencapaciteit.
+Kernvraag hierbij is hoe we op een gestructureerde, efficiënte, en reproduceerbare manier met data en AI omgaan.
+Wat we aan kennis ontwikkelen, brengen we waar mogelijk uit als _open_ resultaten.
+Dat wil zeggen: toegankelijk voor geïnteresseerden in het kader van **open science**.
+Ook zien we kansen om open data te genereren en toegankelijk te maken voor verder onderzoek.
+Al onze opgedane kennis bundelen we in een _Body of Knowledge, Skills & Attitude_ (**BoKSA**) voor data en AI.
+De visie voor het Data+AI Lab is dat het een platform wordt voor onderzoek en onderwijs binnen Saxion, maar ook voor belanghebbenden daar buiten.
+Als je met data en AI aan de slag wilt, is het lab een uitstekend vertrekpunt waar je kunt kennismaken met deze technologie en ook terecht kunt voor verdere verdieping.
+Hiermee streven we ook naar een hechtere (learning) community voor AI binnen Saxion, want we moeten samen aan de slag.
+
+
+### Samen in actie
+
+AI inzetten lukt ons niet alleen.
+Niet als onderzoekers, technici, beleidsmakers, docenten, studenten, bedrijven, overheden, burgers afzonderlijk.
+AI vergt actie van ons allen.
+Iedereen heeft belangen die verschillen van die van anderen of daar deels mee overlappen.
+We even allemaal onze eigen rode draad.
+Iedere discipline van onderzoek en iedere sector kent een ander perspectief op de zaken.
+Om AI goed te kunnen ontwikkelen en toe te passen, is een multidisciplinaire aanpak essentieel.
+Dit is niet een kwestie van samenkomen en even brainstormen, maar een proces van de lange adem.
+Zoals ik hierboven aanhaalde: men moet meer snappen van AI en het gebruik van data en er moet een langetermijnvisie komen die gedragen wordt door de samenleving.
+Om verder te komen met AI waarbij iedereen ervan profiteert, moet ieders belang vertegenwoordigd kunnen zijn.
+Laat deze rede een oproep zijn tot zulke Activistische Intelligentie.
+
+
+## Huiswerk: leven is leren
+
+Deze rede is niet af.
+Dat wil zeggen: het vakgebied AI heeft nog genoeg te ontdekken.
+Er is nog veel te doen, en dat lukt ons als lectoraat, als onderzoekers, als Saxion, niet in ons eentje.
+Daarvoor hebben we ook jou, de lezer, nodig.
+Niet om nieuwe algoritmes te ontwikkelen of data te analyseren, maar om bewust(er) te worden van AI.
+Daarvoor geef ik hieronder huiswerk mee, als oefening voor de lezer.^[Hiervan komt niets op het tentamen, het is allemaal facultatief.]
+Mijn persoonlijke motto is: leven is leren.
+Ik hoop dat jij er ook voor open staat om meer over AI te weten te komen, om het verantwoorder te gebruiken.
+
+
+### Geletterdheid verbeteren
+
+Het verbeteren van geletterdheid is essentieel.
+In de basis is taalgeletterdheid het fundament: woorden, zinnen, teksten leren begrijpen en interpreteren.^[Hierin schuilt ook al een uitdaging, met naar schatting [2,5 miljoen laaggeletterden in Nederland in 2024](https://www.lezenenschrijven.nl/over-laaggeletterdheid/informatie-over-laaggeletterdheid-nederland){target="_blank"}.]
+In het verlengde hiervan is **datageletterdheid** vandaag de dag meer en meer belangrijk.
+Zo ook **AI-geletterdheid**.
+De impact van digitale technologie is verreikend.
+Het wordt ook wel de **digitale transitie** genoemd, omdat vele zaken erdoor veranderen, zowel in de privé- als de professionele sfeer.
+Pas als je beter snapt hoe deze technologieën werken en waarin ze verwerkt zijn, kun je inzien wat wel en niet beïnvloed kan worden door data en AI.
+Dat betekent niet dat je heel specifiek hoeft te weten hoe bepaalde algoritmes werken, maar wel wat de voorwaarden en limitaties zijn hiervan.
+Moet er veel data beschikbaar zijn?
+Is een bepaald algoritme betrouwbaar?
+Welke effecten kan een AI-model hebben op werkprocessen?
+Met inzicht hierin kun je beter een beeld vormen over AI en beslissen of de inzet hiervan aansluit bij je eigen normen en waarden.
+Zo kun je geïnformeerd beslissen wat verantwoord, duurzaam en wenselijk is.
+
+Het huiswerk hiervoor is als volgt: poets je kennis van data en AI op.
+Hiervoor zijn vele bronnen beschikbaar, dus hieronder een kleine selectie:
+
+- [De Nationale AI-cursus](https://www.ai-cursus.nl){target="_blank"} geeft op een begrijpelijke manier uitleg over de basisconcepten van AI, en heeft ook cursussen voor specifieke [toepassingsbieden](https://www.ai-cursus.nl/toepassingsgebied/){target="_blank"} als de zorg, de creatieve industrie en onderwijs.
+- [De Saxion AI-trainingssessies](https://www.tinyurl.com/SaxionAI){target="_blank"} zijn een aantal jaren geleden verzorgd door het lectoraat Ambient Intelligence, met uitleg over methodologie voor data-analyse, en diepgaandere sessies voor machine learning en deep learning.
+- [De Data Literacy Project](https://thedataliteracyproject.org/){target="_blank"} heeft een aantal cursus die basisbegrippen binnen datageletterdheid uitleggen en hoe je hierin vervolgstappen kunt zetten.
+- De online cursussen met verschillende diepgang op [Coursera](https://www.coursera.org/){target="_blank"}, via [Stanford University](https://ai.stanford.edu/courses/){target="_blank"}, [MIT Open Learning](https://openlearning.mit.edu/news/explore-world-artificial-intelligence-online-courses-mit){target="_blank"}, en op vele andere plekken.
+
+
+### Methodologisch te werk
+
+Aan de slag gaan met data en AI is geen simpele kwestie.
+Het is niet zo makkelijk als data ergens uploaden en een AI-model terugkrijgen, of een korte instructie schrijven voor een chatbot.
+Het proces om data en AI in te zetten is complexer en vereist veel (menselijk) denkwerk.
+In het geheel is de toepassing van AI om modellen te genereren maar een klein gedeelte van dit werk.
+Veel meer tijd wordt gespendeerd aan het bepalen van het doel, verzamelen van data, bepalen van datakwaliteit, selectie van toepasbare algoritmes, valideren dat de modellen naar verwachting zijn, implementeren van deze modellen, integreren in bestaande diensten en processen, en het onderhoud hiervan op langere termijn.
+En in dit proces worden sommige stappen met opgedane inzichten opnieuw gedaan tot er een wenselijk resultaat uit komt.
+Kort gezegd: er komt nogal wat bij kijken.
+Hierin is een goede methode dus van belang, om ervoor te zorgen dat alle nodige stappen worden uitgevoerd en gecontroleerd.
+Hiervoor zijn verschillende methodologiën beschikbaar, zoals CRISP-DM, SEMMA en KDD [@azevedo2008kdd], met nog vele afgeleiden en alternatieven [@martinez2019crisp].
+
+Het huiswerk hiervoor is als volgt: gebruik een passend procesmodel dat dit proces ondersteunt voor je eigen situatie.
+De standaard binnen ons lectoraat is CRISP-DM, zoals eerder beschreven in @sec-uitdagingen.
+Dit is de **CRoss-Industry Standard Process for Data Mining**, en bestaat reeds 20 jaar [@schroer2021systematic].
+Het is generiek en goed toepasbaar voor ieder domein.
+Centraal hierin staan de data die geanalyseerd moeten worden, gedreven door een doelstelling die aan het begin concreet gemaakt moet worden.
+Een aantal bronnen die helpen bij het toepassen van CRISP-DM zijn:
+
+- [Het IBM-overzicht van CRISP-DM](https://www.ibm.com/docs/en/spss-modeler/saas?topic=dm-crisp-help-overview){target="_blank"} dat uitlegt geeft over de verschillende fasen en taken.^[Ook beschikbaar als [document](https://inseaddataanalytics.github.io/INSEADAnalytics/CRISP_DM.pdf){target="_blank"}.]
+- [De Saxion AI-trainingssessies](https://www.tinyurl.com/SaxionAI){target="_blank"} waarin de eerste sessie specifiek uitleg geeft over het gebruik van uitdagingen van CRISP-DM.
+
+
+### Kritisch nadenken over AI
+
+Waarom AI?^[_Why AI?_]
+Een fundamentele, essentiële vraag: waarom, of eigenlijk _waarvoor_ zou je AI willen gebruiken?
+Willen we blijven afsturen op oneindige groei, of zijn daar limieten?
+Maakt het ons leven makkelijker?
+Gaat onze kwaliteit van leven omhoog?
+Is AI een doel of een _tool_?
+En gebruiken we de hamer van AI om te bouwen of te vernietigen?
+Hiervoor valt niet zomaar één document of cursus aan te wijzen die zulke vragen beantwoordt.
+
+Het huiswerk hiervoor is als volgt: bedenk welke impact AI op je eigen leven zou kunnen hebben.
+Waarvoor zou je het willen inzetten?
+Wat zou het verbeteren in je leven?
+En als je een specifieke toepassing in gedachten hebt, dan kunnen twee tools van Nederlandse makelij helpen hierop te reflecteren:
+
+- [De Product Impact Tool](https://productimpacttool.org/){target="_blank"} die onderzoek ondersteunt naar de impact van technische producten op mens, maatschappij en milieu [@dorrestijn2012product; @dorrestijn2024ET].
+- [De Technology Impact Cycle Tool](https://tict.io/){target="_blank"} die op een vergelijkbare manier de impact van technologie helpt in te schatten [@van2021importance].
+
+
+### De rode draad
+
+Tot slot wil ik meegeven dat we ieder onze eigen rode draad spinnen.
+Wat logisch lijkt voor jou, is dat misschien niet voor iemand anders.
+Zo ook voor AI: wat is logisch, wat is wenselijk, en wat is menselijk?
+Neem een stukje uit deze rede mee dat voor jou belangrijk is en houd rekening met anderen.
+De laatste huiswerkopdracht is dan ook het simpelst en het moeilijkst: gebruik deze rede om samen iets moois te weven van onze individuele draden en te zorgen voor een toekomst met verantwoorde, duurzame AI.
