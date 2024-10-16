@@ -18,4 +18,4 @@ See the official website of the lectoraat [Ambient Intelligence](https://www.sax
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13939704.svg)](https://doi.org/10.5281/zenodo.13939704)
 
-[!License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC_BY--NC_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
